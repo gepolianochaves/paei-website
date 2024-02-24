@@ -12,17 +12,21 @@ navbar:
       icon: fa-info
       href: "about.html"
       
-    - text: "Projetos de Pesquisa 2023 (SIP)"
+    - text: "Aplicações"  
+      icon: fa-info
+      href: "detalhes-do-programa.html"
+      
+    - text: "Projetos 2023 (SIP)"
       icon: "fa-solid fa-user"
       href: "projetos-pesquisa-2023.html"
       
-    - text: "Projetos de Pesquisa 2024 (PAEI)"
+    - text: "Projetos 2024 (PAEI)"
       icon: "fa-solid fa-user"
       menu:
         - text: "UNILAB/UCSC"
           href: "projetos-pesquisa-2024-ucsc.html"
       
-      href: "projetos-pesquisa-2024.html"
+#      href: "projetos-pesquisa-2024.html"
       
     - text: "Proposta de Documentos"
       icon: fa-book
