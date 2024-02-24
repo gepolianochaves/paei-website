@@ -1,0 +1,36 @@
+name: "paei-website"
+navbar:
+  title: "Programa Acadêmico de Estágio e Intercâmbio (PAEI)"
+  type: "inverse"
+  left:
+  
+    - text: "Home"
+      icon: "fa-home"
+      href: index.html
+      
+    - text: "Sobre nós"  
+      icon: fa-info
+      href: "about.html"
+      
+    - text: "Projetos de Pesquisa 2023 (SIP)"
+      icon: "fa-solid fa-user"
+      href: "projetos-pesquisa-2023.html"
+      
+    - text: "Projetos de Pesquisa 2024 (PAEI)"
+      icon: "fa-solid fa-user"
+      menu:
+        - text: "UNILAB/UCSC"
+          href: "projetos-pesquisa-2024-ucsc.html"
+      
+      href: "projetos-pesquisa-2024.html"
+      
+    - text: "Proposta de Documentos"
+      icon: fa-book
+      menu:
+        - text: "Documentos em pdf"
+        - text: "a. Pontos a serem incluídos nos documentos"
+          href: "documents/proposta.pdf"
+
+output:
+  html_document:
+    theme: readable

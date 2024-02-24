@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>projetos-pesquisa-2023.knit</title>
+
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/faq-0.1.0/style.css" rel="stylesheet" />
+<script src="site_libs/faq-binding-0.1.1/faq.js"></script>
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Programa Acadêmico de Estágio e Intercâmbio (PAEI)</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    Sobre nós
+  </a>
+</li>
+<li>
+  <a href="projetos-pesquisa-2023.html">
+    <span class="fa fa-solid fa-user"></span>
+     
+    Projetos de Pesquisa 2023 (SIP)
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-solid fa-user"></span>
+     
+    Projetos de Pesquisa 2024 (PAEI)
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="projetos-pesquisa-2024-ucsc.html">UNILAB/UCSC</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="fa fa-book"></span>
+     
+    Proposta de Documentos
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Documentos em pdf</li>
+    <li>
+      <a href="documents/proposta.pdf">a. Pontos a serem incluídos nos documentos</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="faq html-widget html-fill-item-overflow-hidden html-fill-item" id="faq" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="faq">{"x":{"data":{"question":["Astronomia e Astrofísica","Biologia Molecular, Celular e do Desenvolvimento","Engenharia Biomolecular e Bioinformática"],"answer":["AST-01 (Tradução: Gepoliano Chaves): Comparação entre Spec2D e PypeIt\n\nMentores principais: Shreyanshi Garg, Chien-Chu (Caridade) Wei\n\nMentora secundária: Dra. Lara Cullinane\n\nContato do corpo docente da UCSC: Prof. Raja GuhaThakurta\n\nLocal: Presencial/híbrido no campus da UCSC\n\nNúmero de estagiários: 6\n\nDescrição do Projeto:\n\nOs espectros astronômicos são medidos com a ajuda de um espectrógrafo. Especificamente, o grupo de pesquisa do mentor usa principalmente o instrumento DEIMOS no telescópio Keck II de 10 metros, no cume de Maunakea, na Grande Ilha do Havaí. Um espectro espalha a luz de uma estrela usando algo semelhante a um prisma e, em seguida, tira uma foto dessa luz espalhada. A parte complicada é transformar aquela imagem CCD, que apenas mostra o número de contagens de fótons em cada pixel, em algo que possa ser usado cientificamente. Os astrônomos geralmente usam pacotes de redução de dados para fazer isso, mas algo que eles estão interessados em estudar é quão diferentes são os resultados de diferentes pacotes de redução de dados. Tal comparação será o foco deste projeto de investigação e é importante não apenas para o grupo de investigação do mentor, mas para a comunidade astronómica mais ampla que depende dos resultados destes pipelines de redução de dados espectroscópicos.\n\nTarefas:\n\nNa maior parte, o grupo de pesquisa do mentor usa dados espectroscópicos que foram reduzidos usando um pacote de software mais antigo baseado em IDL chamado Spec2D, que produz espectros 1D, mas não fornece ao usuário muitos insights sobre os estágios intermediários do processo de redução de dados. A emocionante revolução dos últimos anos veio com o desenvolvimento do código mais novo e mais fácil de usar baseado em Python, PypeIt. Os mentores gostariam que os estagiários do SIP ajudassem o grupo a responder e abordar as seguintes questões:\n(1) Quão diferentes são os espectros 1D de saída de Spec2D vs.\n(2) Se forem diferentes, qual pacote de redução de dados está fazendo um trabalho melhor na extração de espectros?\n(3) Quais são as principais limitações/problemas encontrados com espectros 1D que foram reduzidos usando PypeIt? (o grupo do mentor tem uma boa noção dos problemas de redução de dados associados ao Spec2D, mas não sabe quais são eles para o PypeIt)\n(4) Assim que o grupo de pesquisa compreender melhor os espectros 1D de saída do PypeIt, eles gostariam de rever todos os seus dados coletados nas últimas duas décadas e reduzi-los novamente usando o PypeIt.\n\nHabilidades exigidas para estagiários antes da aceitação: Nenhuma\n\nURL: https://pypeit.readthedocs.io/en/latest/cookbook.html, https://app.ubinum.com/lab/raja-uco-lick-observatory.","MCD-01 (Tradução: Éverton Barbosa): Elucidando as Bases Genéticas da Resistência a Antibióticos Fluoquinolonas\nMentor principal: Amanda Carbajal\nContato UCSC: Prof. Manel Camps\nLocal de realização: presencial/híbrido no campus da UCSC\nNúmero de internos: 3\nDescrição do Projeto:\nBactérias são microrganismos evolucionariamente antigos que desenvolveram uma miríade de mecanismos genéticos, únicos e ainda pouco compreendidos, para sobrevivência e evolução, seja em um hospedeiro humano ou no ambiente. Elas ameaçam a saúde humana por conta de seu sucesso em desenvolver resistência a antibióticos, por meio de mutações aleatórias em seu genoma. A biologia bacteriana inclui aspectos particulares como o elemento genético móvel de um plasmídeo, uma ferramenta genética independente capaz de ser passada à diante e usada conforme a necessidade por meio da transferência horizontal de genes, embora seja pouco conhecido sobre como os plasmídeos ajudam as bactérias. O objetivo que dirige este projeto é compreender como a biologia do plasmídeo permite a E. coli atingir tanto sucesso que novos alvos terapêuticos precisam ser desenvolvidos para amenizar o problema de bactérias super resistentes.\nTarefas\nA primeira tarefa dos internos do SIP será desenvolver uma base de dados local de informações conhecidas sobre plasmídeos e mecanismos de formação de biofilmes relacionados a cada espécie de bactéria. Essa base de dados será utilizada para realizar comparações genéticas e de mecanismos de ação entre diferentes cepas, e, sobre como elas utilizam plasmídeos. A segunda tarefa será aprender o que significa ser um cientista. Isso será realizado por meio de leituras de artigos científicos revisados em revistas científicas, identificando estudos confiáveis e não-confiáveis e os métodos de pesquisa utilizados para provar as hipóteses testadas. Os alunos irão aprender a trabalhar em equipe, colaborar uns com os outros, comunicar-se, e, terão a oportunidade de enxergar um projeto científico acontecendo. Eles vão aprender sobre um campo de estudo emergente em que poucos estão trabalhando, se é que há outros laboratórios.\n\nHabilidade requeridas para ser aceito: nenhuma. MCD-02 (Tradução: Éverton Barbosa): Mecanismos homeostáticos do sono\nMentor principal: Stefan Abreo\nContato UCSC: Prof. Yi Zuo\nLocal de realização: presencial/híbrido no campus da UCSC\nNúmero de internos: 3\nDescrição do Projeto:\nA rotina de dormir, ditada pelos mecanismos circadiano e homeostático, é de baixa qualidade para 50 a 70 milhões de adultos nos EUA e, quando o sono é prejudicado, há um aumento significativo de risco para problemas de saúde mental e psicológica, como depressão, ansiedade, e também doenças cardiovasculares e diabetes. Os processos homeostáticos do sono são bem compreendidos. Este projeto irá demostrar que aumentos nos danos ao DNA neuronal, associados ao despertar, estão relacionados ao aumento da pressão (arterial?)ao dormir. Iremos identificar novos alvos moleculares terapêuticos.\nTarefas\nOs alunos vão ganhar experiência em genotipagem por PCR, cirurgia estereotáxica, protocolos e análise comportamental de camundongos, perfusão intracardíaca, preparação de tecido neural, imunofluorescência, microscopia confocal, e consolidação de dados. É esperado que os alunos deste projeto sejam detalhistas em tomar anotações, tenham boa habilidade em gerenciamento de tempo e tenham motivação para realizar revisões de literatura científica. Além disso, que possam perguntar quantas questões quiserem!\nHabilidade requeridas para ser aceito: nenhuma   \n\nURL: https://www.zuolab.org/ MCD-03 (Tradução: Éverton Barbosa): Codificação de População Neuronal\nMentor principal: Brain Mullen\nContato UCSC: Prof. David Feldheim\nLocal de realização: presencial/híbrido no campus da UCSC\nNúmero de internos: 3 +  TSIP\nDescrição do Projeto:\nO Laboratório Feldheim está interessado no colliculus superior (SC), uma estrutura no mesencéfalo onde a informação visual, auditiva e somatosensorial são integradas para iniciar comando motores. Integração sensorial é o ponto-chave na percepção e resposta aos estímulos ao nosso ambiente, entretanto, cada neurônio perde consistência entre cada tentativa isolada de atingir uma compreensão completa do ambiente. Portanto, uma população de neurônios, formando um circuito, fornecerá melhores informações ao organismo sobre os estímulos percebidos. Então, nosso laboratório realizou medições eletrofisiológicas de neurônios componentes do SC de camundongos acordados enquanto as cobaias eram expostas a estímulos audiovisuais.\nTarefas:\nOs pesquisadores irão acomodar os eletrodos nos cérebros dos animais de forma aleatória. Após o experimento, eles irão dissecar os cérebros e corar o tecido nervoso para revelar a localização das sondas. Para completa compreensão dos dados, o grupo de pesquisa precisa de ferramentas para alinhar a localização dos eletrodos com um mapa de camundongo pré-estabelecido. Isto irá ajudar na interpretação dos dados. Neste verão, os mentores da SIP e os internos SIP/TSIP irão construir uma interface gráfica de usuário (GUI) em python, para realizar esse alinhamento. \nHabilidade requeridas para ser aceito: Programação computacional, experiência de laboratório, análise estatística de dados.\nURL: https://feldheimlab.mcdb.ucsc.edu/","BME-03 (Tradução: Gepoliano Chaves): Biologia Computacional para Estudar Neuroblastoma, um Câncer Pediátrico\nMentor principal: Dr. Gepoliano Chaves\n\nContato do corpo docente da UCSC: Prof. Raja GuhaThakurta\n\nLocal: 100% remoto e online\n\nNúmero de estagiários: 7\n\nDescrição do Projeto:\n\nO neuroblastoma, um câncer pediátrico do tecido da crista neural, é responsável por 7% das doenças malignas diagnosticadas em crianças, mas por 15% de todas as mortes oncológicas pediátricas. Portanto, compreender os mecanismos biológicos que impulsionam o neuroblastoma agressivo pode ajudar a desenvolver terapia para melhorar os resultados dos pacientes. À medida que os tumores crescem, aumenta a necessidade de fornecimento de sangue e nutrientes, proporcionados através da formação de vasos sanguíneos num processo denominado angiogénese, que visa nutrir as células cancerígenas. No entanto, o crescimento do tumor é tão mais rápido do que o crescimento celular normal que as células cancerígenas excedem os níveis de fornecimento de oxigénio, criando uma condição hipóxica no microambiente tumoral. A hipóxia é um fator biológico que se acredita contribuir para a agressividade. O laboratório do mentor identificou importantes atores moleculares para a transdução do sinal de hipóxia do microambiente tumoral para o interior das células, principalmente o núcleo celular, onde o controle da expressão gênica é mantido. O laboratório do mentor contribuiu para a identificação de enzimas de translocação dez-onze (TET) e do produto de sua atividade, 5-hidroximetilcitosina (5-hmC), como fatores que medeiam modificações tumorais em resposta aos estímulos de hipóxia. Neste projeto de pesquisa, o mentor do SIP e os estagiários investigarão padrões de expressão gênica em tumores e células de neuroblastoma, usando dados disponíveis publicamente e dados do laboratório do mentor para caracterizar a biologia que impulsiona a agressividade do neuroblastoma.\n\nTarefas:\n\nOs estagiários do SIP irão:\n\nBaixe conjuntos de dados de neuroblastoma disponíveis publicamente;\nInteragir com R e outros programas de computador para extrair informações biológicas;\nDeterminar quais informações relevantes mostrar ao público da comunidade SIP e ao público científico profissional;\nApresentar dados de pesquisa; e\nEscrever artigos científicos para revistas científicas juniores.\nHabilidades exigidas para estagiários antes da aceitação: Nenhuma"]},"faqtitle":"Bem-vindo(a) à página dos Projetos de Pesquisa do SIP 2023 traduzidos para a Língua Portuguesa","expand_all_button_text":"+ Expand All","collapse_all_button_text":"- Collapse All","content_background_color":"white"},"evals":[],"jsHooks":[]}</script>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

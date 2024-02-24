@@ -1,0 +1,9 @@
+---
+title: "Quem Somos"
+---
+
+<img src="images/Logo com Texto.png" style="width:50%">
+
+O Programa Acadêmico de Estágio e Intercâmbio (PAEI) foi projetado para contemplar jovens falantes de Língua Portuguesa com a oportunidade de envolver-se em pesquisa acadêmica em instituição de ensino de Língua Portuguesa. O PAEI é inspirado no Science Internship Program (SIP) da Universidade da Califórnia Santa Cruz.
+
+Perguntas, dúvidas e mensagens podem ser enviadas para recombio@dnabrasil.dev.br

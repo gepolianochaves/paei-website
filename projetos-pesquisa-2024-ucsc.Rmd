@@ -1,0 +1,22 @@
+```{r, echo=F, warning=F, message=F}
+
+library(faq)
+
+df <- data.frame(
+  question = c("Engenharia Biomolecular e Bioinformática"),
+  
+  answer = c("EBB-01: Identificação de condutores moleculares de progressão e agressividade em neuroblastoma usando aprendizado de máquina. Mentores principais: Sabi Bandiri e Gepoliano Chaves. Descrição do projeto: O neuroblastoma é um câncer pediátrico do sistema nervoso periférico. Hipóxia representa uma condição biológica de concentração limitada de oxigênio que impulsiona a progressão e agressividade desta doença, além de ser importante também em outros tipos de tumores. Anteriormente, investigamos o papel da hipóxia em modelos celulares e tumores de pacientes de neuroblastoma. Acredita-se que a hipóxia conduz à desdiferenciação celular e levantamos a hipótese da existência de um estado celular de célula-tronco e pluripotência relacionado ou mantido pela hipóxia no neuroblastoma. Neste projeto iremos desenvolver modelos de aprendizado de máquina para classificar diferentes categorias de risco de neuroblastoma com base na expressão gênica e quantificação de fenótipos relacionados à hipóxia. Usaremos as ferramentas scikit-learn, PyTorch ou H2O.ai. para construir modelos de regressão logística de aprendizado de máquina para classificar diferentes categorias de risco. Usaremos diferentes conjuntos de dados biológicos para desenvolver aplicativo de web Shiny como ferramenta computacional que possa prever a categoria de risco a que um paciente pertence. Uma vez desenvolvida a ferramenta, seremos capazes de gerar modelos de aprendizado de máquina que aprendam com o estado genético do paciente no momento em que inicia-se a terapia. Então, quando pudermos interrogar a informação genética do paciente após ele ter recebido uma primeira rodada de terapia, seremos capazes de quantificar os fenótipos de risco do paciente em relação a quando o paciente foi iniciado na terapia. Em última instância, teremos gerado modelos que possam quantificar ou prever a categoria de risco a que o tipo de tumor de uma pessoa pertence, após receber um determinado tipo de terapia. Desta forma, teremos também gerado metodologias computacionais que possam mensurar a efetividade da terapia recebida pelo paciente do ponto de vista de mudanças na expressão genética e epigenética em tumores, especificamente em neuroblastoma.
+
+
+Listas das Atividades:
+
+• Baixar conjuntos de dados de neuroblastoma disponíveis publicamente;
+• Interagir com Python e R para extrair informações biológicas, fenotípicas e metadados das amostras baixadas;
+• Determinar quais informações são relevantes para serem mostradas ao público da comunidade PAEI e ao público científico profissional sobre o desenvolvimento do projeto;
+• Apresentar dados de pesquisa; e
+• Escrever artigos científicos com objetivo de enviar para revistas científicas e/ou congressos nacionais e internacionais juniores.
+")
+)
+faq::faq(data = df, elementId = "faq", faqtitle = "Projetos PAEI UNILAB/UCSC 2024:")
+
+```

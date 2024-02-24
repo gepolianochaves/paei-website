@@ -1,0 +1,118 @@
+```{r, echo=F, warning=F, message=F}
+
+library(faq)
+
+df <- data.frame(
+  question = c("Astronomia e Astrofísica",
+               "Biologia Molecular, Celular e do Desenvolvimento", 
+               "Engenharia Biomolecular e Bioinformática"),
+  
+
+  
+## Início descrição dos projetos
+## AST01
+answer = c("AST-01 (Tradução: Gepoliano Chaves): Comparação entre Spec2D e PypeIt
+
+Mentores principais: Shreyanshi Garg, Chien-Chu (Caridade) Wei
+
+Mentora secundária: Dra. Lara Cullinane
+
+Contato do corpo docente da UCSC: Prof. Raja GuhaThakurta
+
+Local: Presencial/híbrido no campus da UCSC
+
+Número de estagiários: 6
+
+Descrição do Projeto:
+
+Os espectros astronômicos são medidos com a ajuda de um espectrógrafo. Especificamente, o grupo de pesquisa do mentor usa principalmente o instrumento DEIMOS no telescópio Keck II de 10 metros, no cume de Maunakea, na Grande Ilha do Havaí. Um espectro espalha a luz de uma estrela usando algo semelhante a um prisma e, em seguida, tira uma foto dessa luz espalhada. A parte complicada é transformar aquela imagem CCD, que apenas mostra o número de contagens de fótons em cada pixel, em algo que possa ser usado cientificamente. Os astrônomos geralmente usam pacotes de redução de dados para fazer isso, mas algo que eles estão interessados em estudar é quão diferentes são os resultados de diferentes pacotes de redução de dados. Tal comparação será o foco deste projeto de investigação e é importante não apenas para o grupo de investigação do mentor, mas para a comunidade astronómica mais ampla que depende dos resultados destes pipelines de redução de dados espectroscópicos.
+
+Tarefas:
+
+Na maior parte, o grupo de pesquisa do mentor usa dados espectroscópicos que foram reduzidos usando um pacote de software mais antigo baseado em IDL chamado Spec2D, que produz espectros 1D, mas não fornece ao usuário muitos insights sobre os estágios intermediários do processo de redução de dados. A emocionante revolução dos últimos anos veio com o desenvolvimento do código mais novo e mais fácil de usar baseado em Python, PypeIt. Os mentores gostariam que os estagiários do SIP ajudassem o grupo a responder e abordar as seguintes questões:
+(1) Quão diferentes são os espectros 1D de saída de Spec2D vs.
+(2) Se forem diferentes, qual pacote de redução de dados está fazendo um trabalho melhor na extração de espectros?
+(3) Quais são as principais limitações/problemas encontrados com espectros 1D que foram reduzidos usando PypeIt? (o grupo do mentor tem uma boa noção dos problemas de redução de dados associados ao Spec2D, mas não sabe quais são eles para o PypeIt)
+(4) Assim que o grupo de pesquisa compreender melhor os espectros 1D de saída do PypeIt, eles gostariam de rever todos os seus dados coletados nas últimas duas décadas e reduzi-los novamente usando o PypeIt.
+
+Habilidades exigidas para estagiários antes da aceitação: Nenhuma
+
+URL: https://pypeit.readthedocs.io/en/latest/cookbook.html, https://app.ubinum.com/lab/raja-uco-lick-observatory.",
+
+
+
+## MCD-01
+paste("MCD-01 (Tradução: Éverton Barbosa): Elucidando as Bases Genéticas da Resistência a Antibióticos Fluoquinolonas
+Mentor principal: Amanda Carbajal
+Contato UCSC: Prof. Manel Camps
+Local de realização: presencial/híbrido no campus da UCSC
+Número de internos: 3
+Descrição do Projeto:
+Bactérias são microrganismos evolucionariamente antigos que desenvolveram uma miríade de mecanismos genéticos, únicos e ainda pouco compreendidos, para sobrevivência e evolução, seja em um hospedeiro humano ou no ambiente. Elas ameaçam a saúde humana por conta de seu sucesso em desenvolver resistência a antibióticos, por meio de mutações aleatórias em seu genoma. A biologia bacteriana inclui aspectos particulares como o elemento genético móvel de um plasmídeo, uma ferramenta genética independente capaz de ser passada à diante e usada conforme a necessidade por meio da transferência horizontal de genes, embora seja pouco conhecido sobre como os plasmídeos ajudam as bactérias. O objetivo que dirige este projeto é compreender como a biologia do plasmídeo permite a E. coli atingir tanto sucesso que novos alvos terapêuticos precisam ser desenvolvidos para amenizar o problema de bactérias super resistentes.
+Tarefas
+A primeira tarefa dos internos do SIP será desenvolver uma base de dados local de informações conhecidas sobre plasmídeos e mecanismos de formação de biofilmes relacionados a cada espécie de bactéria. Essa base de dados será utilizada para realizar comparações genéticas e de mecanismos de ação entre diferentes cepas, e, sobre como elas utilizam plasmídeos. A segunda tarefa será aprender o que significa ser um cientista. Isso será realizado por meio de leituras de artigos científicos revisados em revistas científicas, identificando estudos confiáveis e não-confiáveis e os métodos de pesquisa utilizados para provar as hipóteses testadas. Os alunos irão aprender a trabalhar em equipe, colaborar uns com os outros, comunicar-se, e, terão a oportunidade de enxergar um projeto científico acontecendo. Eles vão aprender sobre um campo de estudo emergente em que poucos estão trabalhando, se é que há outros laboratórios.
+
+Habilidade requeridas para ser aceito: nenhuma.",
+
+
+
+## MCD-02
+"MCD-02 (Tradução: Éverton Barbosa): Mecanismos homeostáticos do sono
+Mentor principal: Stefan Abreo
+Contato UCSC: Prof. Yi Zuo
+Local de realização: presencial/híbrido no campus da UCSC
+Número de internos: 3
+Descrição do Projeto:
+A rotina de dormir, ditada pelos mecanismos circadiano e homeostático, é de baixa qualidade para 50 a 70 milhões de adultos nos EUA e, quando o sono é prejudicado, há um aumento significativo de risco para problemas de saúde mental e psicológica, como depressão, ansiedade, e também doenças cardiovasculares e diabetes. Os processos homeostáticos do sono são bem compreendidos. Este projeto irá demostrar que aumentos nos danos ao DNA neuronal, associados ao despertar, estão relacionados ao aumento da pressão (arterial?)ao dormir. Iremos identificar novos alvos moleculares terapêuticos.
+Tarefas
+Os alunos vão ganhar experiência em genotipagem por PCR, cirurgia estereotáxica, protocolos e análise comportamental de camundongos, perfusão intracardíaca, preparação de tecido neural, imunofluorescência, microscopia confocal, e consolidação de dados. É esperado que os alunos deste projeto sejam detalhistas em tomar anotações, tenham boa habilidade em gerenciamento de tempo e tenham motivação para realizar revisões de literatura científica. Além disso, que possam perguntar quantas questões quiserem!
+Habilidade requeridas para ser aceito: nenhuma   
+
+URL: https://www.zuolab.org/",
+
+
+
+## MCD-03
+"MCD-03 (Tradução: Éverton Barbosa): Codificação de População Neuronal
+Mentor principal: Brain Mullen
+Contato UCSC: Prof. David Feldheim
+Local de realização: presencial/híbrido no campus da UCSC
+Número de internos: 3 +  TSIP
+Descrição do Projeto:
+O Laboratório Feldheim está interessado no colliculus superior (SC), uma estrutura no mesencéfalo onde a informação visual, auditiva e somatosensorial são integradas para iniciar comando motores. Integração sensorial é o ponto-chave na percepção e resposta aos estímulos ao nosso ambiente, entretanto, cada neurônio perde consistência entre cada tentativa isolada de atingir uma compreensão completa do ambiente. Portanto, uma população de neurônios, formando um circuito, fornecerá melhores informações ao organismo sobre os estímulos percebidos. Então, nosso laboratório realizou medições eletrofisiológicas de neurônios componentes do SC de camundongos acordados enquanto as cobaias eram expostas a estímulos audiovisuais.
+Tarefas:
+Os pesquisadores irão acomodar os eletrodos nos cérebros dos animais de forma aleatória. Após o experimento, eles irão dissecar os cérebros e corar o tecido nervoso para revelar a localização das sondas. Para completa compreensão dos dados, o grupo de pesquisa precisa de ferramentas para alinhar a localização dos eletrodos com um mapa de camundongo pré-estabelecido. Isto irá ajudar na interpretação dos dados. Neste verão, os mentores da SIP e os internos SIP/TSIP irão construir uma interface gráfica de usuário (GUI) em python, para realizar esse alinhamento. 
+Habilidade requeridas para ser aceito: Programação computacional, experiência de laboratório, análise estatística de dados.
+URL: https://feldheimlab.mcdb.ucsc.edu/"),
+
+
+
+## BME03
+"BME-03 (Tradução: Gepoliano Chaves): Biologia Computacional para Estudar Neuroblastoma, um Câncer Pediátrico
+Mentor principal: Dr. Gepoliano Chaves
+
+Contato do corpo docente da UCSC: Prof. Raja GuhaThakurta
+
+Local: 100% remoto e online
+
+Número de estagiários: 7
+
+Descrição do Projeto:
+
+O neuroblastoma, um câncer pediátrico do tecido da crista neural, é responsável por 7% das doenças malignas diagnosticadas em crianças, mas por 15% de todas as mortes oncológicas pediátricas. Portanto, compreender os mecanismos biológicos que impulsionam o neuroblastoma agressivo pode ajudar a desenvolver terapia para melhorar os resultados dos pacientes. À medida que os tumores crescem, aumenta a necessidade de fornecimento de sangue e nutrientes, proporcionados através da formação de vasos sanguíneos num processo denominado angiogénese, que visa nutrir as células cancerígenas. No entanto, o crescimento do tumor é tão mais rápido do que o crescimento celular normal que as células cancerígenas excedem os níveis de fornecimento de oxigénio, criando uma condição hipóxica no microambiente tumoral. A hipóxia é um fator biológico que se acredita contribuir para a agressividade. O laboratório do mentor identificou importantes atores moleculares para a transdução do sinal de hipóxia do microambiente tumoral para o interior das células, principalmente o núcleo celular, onde o controle da expressão gênica é mantido. O laboratório do mentor contribuiu para a identificação de enzimas de translocação dez-onze (TET) e do produto de sua atividade, 5-hidroximetilcitosina (5-hmC), como fatores que medeiam modificações tumorais em resposta aos estímulos de hipóxia. Neste projeto de pesquisa, o mentor do SIP e os estagiários investigarão padrões de expressão gênica em tumores e células de neuroblastoma, usando dados disponíveis publicamente e dados do laboratório do mentor para caracterizar a biologia que impulsiona a agressividade do neuroblastoma.
+
+Tarefas:
+
+Os estagiários do SIP irão:
+
+Baixe conjuntos de dados de neuroblastoma disponíveis publicamente;
+Interagir com R e outros programas de computador para extrair informações biológicas;
+Determinar quais informações relevantes mostrar ao público da comunidade SIP e ao público científico profissional;
+Apresentar dados de pesquisa; e
+Escrever artigos científicos para revistas científicas juniores.
+Habilidades exigidas para estagiários antes da aceitação: Nenhuma"
+)
+)
+faq::faq(data = df, elementId = "faq", faqtitle = "Bem-vindo(a) à página dos Projetos de Pesquisa do SIP 2023 traduzidos para a Língua Portuguesa")
+
+```
