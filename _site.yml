@@ -25,10 +25,15 @@ navbar:
       menu:
         - text: "UNILAB/UCSC"
           href: "projetos-pesquisa-2024-ucsc.html"
-      
+          
+    - text: "Mentores"
+      icon: "fa-solid fa-user"
+      href: "mentores.html"
+
+# Retirar essa linha caso não prejudique o código:      
 #      href: "projetos-pesquisa-2024.html"
       
-    - text: "Proposta de Documentos"
+    - text: "Documentos"
       icon: fa-book
       menu:
         - text: "Documentos em pdf"
