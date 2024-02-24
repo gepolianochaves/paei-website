@@ -16,6 +16,10 @@ navbar:
       icon: fa-info
       href: "detalhes-do-programa.html"
       
+    - text: "Traduções"
+      icon: "fa-book"
+      href: "eventos-de-traducao.html"
+      
     - text: "Projetos 2023 (SIP)"
       icon: "fa-solid fa-user"
       href: "projetos-pesquisa-2023.html"
