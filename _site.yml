@@ -16,13 +16,13 @@ navbar:
       icon: fa-info
       href: "detalhes-do-programa.html"
       
-    - text: "Traduções"
+    - text: "Eventos de Tradução"
       icon: "fa-book"
       href: "eventos-de-traducao.html"
       
-    - text: "Projetos 2023 (SIP)"
-      icon: "fa-solid fa-user"
-      href: "projetos-pesquisa-2023.html"
+    # - text: "Projetos 2023 (SIP)"
+    #   icon: "fa-solid fa-user"
+    #   href: "projetos-pesquisa-2023.html"
       
     - text: "Projetos 2024 (PAEI)"
       icon: "fa-solid fa-user"
@@ -33,17 +33,13 @@ navbar:
     - text: "Mentores"
       icon: "fa-solid fa-user"
       href: "mentores.html"
-
-# Retirar essa linha caso não prejudique o código:      
-#      href: "projetos-pesquisa-2024.html"
       
-    - text: "Documentos"
-      icon: fa-book
-      menu:
-        - text: "Documentos em pdf"
-        - text: "a. Pontos a serem incluídos nos documentos"
-          href: "documents/proposta.pdf"
+    - text: "Redes de Novação e Empreendedorismo"
+      icon: "fa-duotone fa-people-group"
+      href: "redes-novacao-empreendedorismo.html"
+      
+      
 
 output:
   html_document:
-    theme: readable
+    theme: cerulean
