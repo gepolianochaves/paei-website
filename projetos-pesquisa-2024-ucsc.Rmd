@@ -17,6 +17,6 @@ Listas das Atividades:
 • Escrever artigos científicos com objetivo de enviar para revistas científicas e/ou congressos nacionais e internacionais juniores.
 ")
 )
-faq::faq(data = df, elementId = "faq", faqtitle = "Projetos PAEI UNILAB/UCSC 2024:")
+faq::faq(data = df, elementId = "faq", faqtitle = "UNILAB/UCSC")
 
 ```
