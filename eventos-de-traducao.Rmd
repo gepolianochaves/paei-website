@@ -2,10 +2,16 @@
   title: "Eventos de Tradução"
 ---
 
-Pretendemos oferecer sessões de tradução nas datas abaixo:
-
-* Março de 2024, 2:00-3:00 PM BRT (hora de Brasília)
+#### Eventos encerrados
 
 [Veja a gravação do evento de 23 de janeiro de 2024 2:00 PM BRT](https://www.youtube.com/watch?v=h9QRf83-3lc)
 
 [Leia traduções de projetos do SIP/2023](https://paei.netlify.app/projetos-pesquisa-2023)
+
+#### Próximos eventos
+
+11/03/2024, 8:00-9:00 AM BRT (hora de Brasília)
+
+* [Inscrições gratuitas para o evento de tradução](https://forms.gle/b4Gd3EMVZpD8xAYd8)
+
+* [Link de acesso à sala de tradução](https://ucsc.zoom.us/j/98256282769?pwd=VVJZNitZSUhRdHFiajQ0Nm0xeU1ZZz09)
