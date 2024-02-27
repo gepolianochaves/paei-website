@@ -1,31 +1,31 @@
 ---
-  title: "Passos para a aplicação ao PAEI"
+  title: "Passos para inscrição no PAEI"
 ---
   
   
   
-#### 1) Complete a Aplicação para Admissão
+#### 1) Complete a Inscrição para Admissão
 
-* Acesse a Inscrição PAEI 2024 clicando no botão “Inscreva-se aqui”, na linha abaixo.
+* É necessário enviar carta de recomendação assinada, histórico escolar do ano corrente ou do ano anterior cursado e carta de recomendação de um professor atestando aptidões acadêmicas.
 
-* É necessário enviar carta de interesse assinda, histórico escolar completo e carta de referência de professor atestando aptidões acadêmicas.
-
-* [Inscreva-se aqui](https://forms.gle/fqZtzptuU2NJ64gQ7)
+* Acesse a Inscrição PAEI 2024 clicando no botão [Inscreva-se aqui](https://forms.gle/fqZtzptuU2NJ64gQ7)
 
 #### 2) Faça uma doação para o programa
 
-* Acesse o Portal de Pagamento Iris clicando no botão “Portal de Pagamento” na parte superior da página para abrir uma conta e pagar a taxa de inscrição de R$ 1000.
+* Acesse o Portal de Pagamento na parte superior da página para abrir uma conta e pagar a taxa de inscrição de R$ 30.
 
 * Observe que o portal de pagamento é um sistema separado do portal de aplicações.
 Para usar o portal de pagamento, você precisará criar uma conta separada.
 Basta registrar-se novamente usando as mesmas credenciais.
 Usar o mesmo endereço de e-mail em ambos os sistemas facilitará a correspondência entre suas contas.
 
-* Uma taxa de inscrição não reembolsável de R$ 1000 é necessária para que sua inscrição seja considerada completa e revisada para admissão. Se precisar de apoio financeiro, envie um e-mail para o escritório do PAEI em recombio@dnabrasil.dev.br com uma ou duas frases explicando sua necessidade, e poderá ser concedida isenção de taxa de inscrição.
+* Uma taxa de inscrição não reembolsável de R$ 30 é necessária para que sua inscrição seja considerada completa e revisada para admissão. Se precisar de apoio financeiro, envie um e-mail para recombio@dnabrasil.dev.br com uma ou duas frases explicando sua necessidade, e poderá ser concedida isenção de taxa de inscrição.
+
+* Caso tenha interesse no auxílio para a candidatura ao SIP no campus da UCSC, será necessário investimento de US$ 100 para tal.  A candidatura ao SIP por meio do PAEI auxilia no pleito de bolsas de alojamento, alimentação e taxas escolares nos valores de 25%, 50%, 75% e 100%, junto à UCSC.
 
 
 
-#### 3) Peça a carta de referência ao seu professor
+#### 3) Peça a carta de recomendação ao seu professor
 
 * É necessária uma referência de um professor ou mentor que conheça bem você e sua aptidão acadêmica para que sua inscrição no PAEI seja considerada completa.
 

@@ -12,7 +12,7 @@ navbar:
       icon: "fa-solid fa-circle-info"
       href: "about.html"
       
-    - text: "Aplicações"  
+    - text: "Inscrições"  
       icon: "fa-duotone fa-address-card"
       href: "detalhes-do-programa.html"
       
@@ -30,7 +30,7 @@ navbar:
       icon: "fa-light fa-person-chalkboard"
       href: "mentores.html"
       
-    - text: "Redes de Novação e Empreendedorismo"
+    - text: "Redes de Inovação e Empreendedorismo"
       icon: "fa-duotone fa-people-group"
       href: "redes-novacao-empreendedorismo.html"
       
