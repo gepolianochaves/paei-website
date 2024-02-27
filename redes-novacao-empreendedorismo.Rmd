@@ -11,3 +11,9 @@ As portarias CAPES ### e CNPq ####, de 2023, estabeleceram a oportunidade de ex-
 * [Conheça a IDL Ventures](https://idl.ventures)
 
 * [Veja a gravação da primeira interação entre ex-bolsistas e o TEP](https://www.youtube.com/watch?v=h9QRf83-3lc)
+
+### Propostas de Novação
+
+* Desenvolvimento de métodos prognósticos para neuroblastoma utilizando aprendizado de máquina
+
+* Identificação de variantes genéticas relacionadas a envelhecimento e saúde mental na população brasileira
