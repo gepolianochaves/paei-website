@@ -30,7 +30,11 @@ navbar:
       icon: "fa-light fa-person-chalkboard"
       href: "mentores.html"
       
-    - text: "Redes de Inovação e Empreendedorismo"
+    - text: "PRaD"
+      icon: "fa-solid fa-people-arrows"
+      href: "PRaD.html"
+      
+    - text: "Inovação e Empreendedorismo"
       icon: "fa-duotone fa-people-group"
       href: "redes-novacao-empreendedorismo.html"
       
