@@ -37,3 +37,5 @@ O PAEI nasce como uma implementação da PRaD como consequência do caráter tec
 
 A pesquisa na modalidade à distância é objeto de investimentos da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). A diretoria responsável é a Diretoria de Educação à Distância (DED).
 https://www.youtube.com/watch?v=5mjVZ_oLczo&t=2s
+
+Em trabalhos como "*Leading the e-Learning Transformation of Higher Education [OP]: Meeting the Challenges of Technology and Distance Education*", do Dr. Lawrence Ragan, pode-se entender como liderar o progresso na pesquisa e ciência no nível superior para impactar positivamente a educação, ciência e tecnologia brasileiras.
