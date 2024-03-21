@@ -1,8 +1,6 @@
 ---
-  title: "Pesquisa Real à Distância (PRaD)"
+  title: "  O que é a Pesquisa Real à Distância (PRaD)"
 ---
-
-### O que é PRaD
 
 #### Experiência prévia
 
@@ -18,21 +16,24 @@ Tumores adultos e tumores de crianças não apresentam mecanismos iguais de mali
 
 ##### Pesquisa real à distância nas ciências ômicas
 
-A natureza do trabalho desenvolvido por pesquisadores e profissionais das ciências ômicas envolve o componente computacional, por definição. O fundador do Instituto de Genômica da UCSC, Dr. David Haussler, tem Ph.D. em ciências da computação. Assim sendo, a interação e desenvolvimento das tecnologias e algoritmos para análise e investigação da atividade dos biomarcadores é feito à distância ou remotamente. Desta forma, pesquisadores das ciências ômicas utilizam a internet, satélites, computação em nuvem e computação quântica para criar e entregar serviços como oportunidades de soluções por meio da Pesquisa Real à Distância.
+A natureza do trabalho desenvolvido por pesquisadores e profissionais das ciências ômicas envolve o componente computacional, por definição. O fundador do Instituto de Genômica da UCSC, Dr. David Haussler, tem Ph.D. em ciências da computação. Assim sendo, a interação entre pesquisadores, o desenvolvimento das tecnologias e algoritmos para análise e investigação da atividade dos biomarcadores são procedimentos feitos à distância ou remotamente. Desta forma, pesquisadores das ciências ômicas utilizam a internet, satélites, computação em nuvem e computação quântica para criar e entregar serviços como oportunidades de soluções por meio da pesquisa real à distância.
 
 ![O marcador epigenético de DNA 5-hidroxi-metil-citosina (5-hmC) pode ser isolado de amostras de biópsia líquida (sangue) de crianças para diagnóstico de neuroblastoma.](./images/PRaD.png){width=60%}
 
-#### Science Internship Program
+#### PRaD no *Science Internship Program* (SIP)
 
-Há práticas para a educação à distância que permitem maior eficiência no processo. 
-
-[Clique para obter mais informações sobre como ter uma educação à distância mais eficaz](https://www.aritzhaupt.com/distance_education/research-methods/)
+No SIP, a PRaD é praticada durante os verões do hemisfério norte. Há práticas para a educação à distância que permitem maior eficiência no processo da PRaD. [Clique para obter mais informações sobre como ter uma educação à distância mais eficaz](https://www.aritzhaupt.com/distance_education/research-methods/)
 
 
-#### Treehouse Undergraduate Bioinformatics Internship
+#### PRaD no *Treehouse Undergraduate Bioinformatics Internship* (TUBI)
 
 Programa do Instituto de Genômica da UCSC, desenvolvido pelo laboratório da Dra. Olena Vaske, visando contribuir para o progresso da genômica de cânceres pediátricos.
 
-#### PAEI
+#### PRaD no PAEI
 
-PAEI nasce como uma  implementação da PRaD como consequência do caráter tecnológico das ciências genômicas no que se refere às linguagens de programação computacional.
+O PAEI nasce como uma implementação da PRaD como consequência do caráter tecnológico das ciências genômicas no que se refere às linguagens de programação computacional.
+
+#### PRaD no Brasil
+
+A pesquisa na modalidade à distância é objeto de investimentos da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES).
+https://www.youtube.com/watch?v=5mjVZ_oLczo&t=2s
