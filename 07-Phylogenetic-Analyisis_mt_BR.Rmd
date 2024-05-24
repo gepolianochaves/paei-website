@@ -9,6 +9,12 @@ output:
 bibliography: references.bib
 ---
 
+# Motivation
+
+* To use genomic information isolated from samples of Brazilian ancestry available in public databases and data banks to calculate risk, phenotype, diagnostic and prognostic probabilities of disease. 
+
+* To build a tool called Gerenciamento Genômico e Algorítmico de Dados de Doenças (Geraldo) for utilization by the public with DATASUS and Programa Genomas Brasil (GenBR).
+
 # 1. Introduction
 
 ## 1.1. Mitochondrial genome and matrilinear information
