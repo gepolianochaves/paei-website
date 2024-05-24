@@ -13,7 +13,7 @@ bibliography: references.bib
 
 * To apply Artificial Inteligence, Machine Learning, Data Science and Bioinformatics algorithms to genomic information from samples of Brazilian ancestry available in public databases and data banks to calculate risk, phenotype, diagnostic and prognostic probabilities of disease. 
 
-* To build a tool called Gerenciamento Genômico e Algorítmico de Dados de Doenças (Geraldo) for utilization by the public with DATASUS and Programa Genomas Brasil (GenBR).
+* To build a tool called Gerenciamento Genômico e Algorítmico de Dados de Doenças (GERALDO) for utilization by the public with DATASUS and Programa Genomas Brasil (GenBR).
 
 # 1. Introduction
 
