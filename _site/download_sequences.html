@@ -11,7 +11,7 @@
 
 
 
-<title>Quem Somos</title>
+<title>download_sequences.knit</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -319,38 +319,53 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Quem Somos</h1>
 
 </div>
 
 
-<p>O Programa Acadêmico de Estágio e Intercâmbio (PAEI) foi desenhado
-para contemplar jovens falantes de Língua Portuguesa com envolvimento
-com pesquisa científica em instituição de ensino de Língua Portuguesa em
-parceria com instituições do exterior. O PAEI é inspirado no <a
-href="https://sip.ucsc.edu/about/">Science Internship Program</a> (SIP)
-da Universidade da Califórnia Santa Cruz (<a
-href="https://www.ucsc.edu">UCSC</a>).</p>
-<p>O PAEI oferece ao estudante de ensino médio (ou recém egresso),
-contato próximo com um mentor estudante de doutorado ou mestrado. O
-interno aprende sobre as áreas de pesquisa acadêmica da instituição
-parceira, de acordo com o projeto de seu interesse.</p>
-<p>Tendo como referência o <a
-href="https://unilab.edu.br/atividades-life-2018-2019/?_gl=1*pt6cap*_ga*NzgwMTAwMTEzLjE3MDkxNjA3ODc.*_ga_622E2NCDRK*MTcwOTE2MDc4Ni4xLjEuMTcwOTE2MDg1MC4wLjAuMA..&amp;_ga=2.260142093.161721490.1709160787-780100113.1709160787">Programa
-de Apoio a Laboratório Interdisciplinares de Formação de Educadores</a>
-(Life), da UNILAB, o PAEI busca valorizar a experiência do professor da
-educação básica, desenvolvendo estratégias que ensejam melhoria do
-desempenho de aprendizagem e estimulam o interesse na educação, ciência
-e tecnologia, por parte dos alunos brasileiros.</p>
-<p>O primeiro programa (piloto) terá duração total de 4 semanas. O
-interno será exposto à pesquisa computacional, que faz uso de linguagens
-de programação, além de também entrar em contato com a escrita e
-apresentação científicas. Prentendemos que com o passar do tempo e
-crescimento do programa, grande parte ou todas as áreas do conhecimento
-da instituição parceira sejam contempladas no programa.</p>
-<p>Perguntas, dúvidas e mensagens podem ser encaminhadas para <a
-href="mailto:recombio@dnabrasil.dev.br"
-class="email">recombio@dnabrasil.dev.br</a></p>
+<div id="reference" class="section level1">
+<h1>Reference</h1>
+<p><a href="https://www.ncbi.nlm.nih.gov/genbank/"
+class="uri">https://www.ncbi.nlm.nih.gov/genbank/</a></p>
+<p><a
+href="https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/downloading-the-sequences-from-genbank.html"
+class="uri">https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/downloading-the-sequences-from-genbank.html</a></p>
+<pre class="r"><code>library(ape)
+mt_brazilian &lt;- read.GenBank(c(
+  # &quot;AF243627&quot;, # Amerindian/Asian lineage
+  # &quot;AF243628&quot;, # Amerindian/Asian lineage
+  # &quot;AF243629&quot;, # Amerindian/Asian lineage
+  # &quot;AF243700&quot;, # Amerindian/Asian lineage 
+  &quot;AF243780&quot;, # European lineage
+  &quot;AF243781&quot;, # European lineage
+  &quot;AF243782&quot;, # European lineage
+  &quot;AF243783&quot;, # European lineage
+  &quot;AF243784&quot;, # European lineage
+  &quot;AF243785&quot;, # European lineage
+  &quot;AF243786&quot;, # European lineage
+  &quot;AF243787&quot;, # European lineage
+  &quot;AF243788&quot;, # European lineage
+  &quot;AF243789&quot;, # European lineage
+  &quot;AF243790&quot;, # European lineage
+  &quot;AF243791&quot;, # European lineage 
+  &quot;AF243792&quot;, # European lineage     
+  &quot;AF243793&quot;, # European lineage   
+  &quot;AF243794&quot;, # European lineage   
+  &quot;AF243795&quot;, # European lineage 
+  &quot;AF243796&quot;  # European lineage
+  # &quot;AF243634&quot;, # African lineage 
+  # &quot;AF243635&quot;, # African lineage 
+  # &quot;AF243636&quot;, # African lineage 
+  # &quot;AF243637&quot;, # African lineage 
+  # &quot;AF243638&quot;, # African lineage 
+  # &quot;AF243639&quot;, # African lineage 
+  # &quot;AF243640&quot;  # African lineage 
+))</code></pre>
+<p>Write to file</p>
+<pre class="r"><code>write.dna(mt_brazilian, 
+          file = &quot;./data/mt_brazilian.fasta&quot;, 
+          format = &quot;fasta&quot;)</code></pre>
+</div>
 
 
 

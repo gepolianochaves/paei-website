@@ -21,3 +21,5 @@ As portarias de novação [CNPq, de 15 de dezembro de 2023](https://www.in.gov.b
 * Desenvolvimento de métodos prognósticos para neuroblastoma utilizando aprendizado de máquina
 
 * Identificação de variantes genéticas relacionadas a envelhecimento e saúde mental na população brasileira
+
+* [Phylogenetic Analysis of Brazilian mtDNA Sequences](https://paei.netlify.app/07-Phylogenetic-Analyisis_mt_BR)

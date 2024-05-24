@@ -1,0 +1,51 @@
+
+# Reference
+
+https://www.ncbi.nlm.nih.gov/genbank/
+
+https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/downloading-the-sequences-from-genbank.html
+
+```{r}
+library(ape)
+mt_brazilian <- read.GenBank(c(
+  # "AF243627", # Amerindian/Asian lineage
+  # "AF243628", # Amerindian/Asian lineage
+  # "AF243629", # Amerindian/Asian lineage
+  # "AF243700", # Amerindian/Asian lineage 
+  "AF243780", # European lineage
+  "AF243781", # European lineage
+  "AF243782", # European lineage
+  "AF243783", # European lineage
+  "AF243784", # European lineage
+  "AF243785", # European lineage
+  "AF243786", # European lineage
+  "AF243787", # European lineage
+  "AF243788", # European lineage
+  "AF243789", # European lineage
+  "AF243790", # European lineage
+  "AF243791", # European lineage 
+  "AF243792", # European lineage     
+  "AF243793", # European lineage   
+  "AF243794", # European lineage   
+  "AF243795", # European lineage 
+  "AF243796"  # European lineage
+  # "AF243634", # African lineage 
+  # "AF243635", # African lineage 
+  # "AF243636", # African lineage 
+  # "AF243637", # African lineage 
+  # "AF243638", # African lineage 
+  # "AF243639", # African lineage 
+  # "AF243640"  # African lineage 
+))
+```
+
+Write to file
+
+```{r}
+write.dna(mt_brazilian, 
+          file = "./data/mt_brazilian.fasta", 
+          format = "fasta")
+```
+
+
+
