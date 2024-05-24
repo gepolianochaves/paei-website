@@ -19,6 +19,10 @@ bibliography: references.bib
 
 ![Classification tree of mitochondrial haplogroups. Figure from @Mitchell2014.](./images/mt-genome.png){width=60%}
 
+* Mitochondrial genome is 16569 bp long (Bolze 2021) @Bolze2021
+
+![Classification tree of mitochondrial haplogroups. Figure from @Mitchell2014.](./images/imputation.png){width=60%}
+
 ## 1.2. Mitochondrial haplogroups
 
 * Genetic variants (mutations) in mitochondrial DNA can be organized in haplogroups.
@@ -46,7 +50,9 @@ bibliography: references.bib
 
 * The function above is in package https://cran.r-project.org/web/packages/dotgen/index.html
 
-![Reference panels can be used to create populational references. With milions or billions of sequences deposited in a database, a genetic model can be created or imputed. Figure from @tellmeGen.](./images/imputação.png){width=40%}
+* This is a test.
+
+![Reference panels can be used to create populational references. With milions or billions of sequences deposited in a database, a genetic model can be created or imputed. Figure from @tellmeGen.](./images/imputation.png){width=50%}
 
 # 3. Alignment
 
