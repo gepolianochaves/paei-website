@@ -19,10 +19,6 @@ bibliography: references.bib
 
 ![Classification tree of mitochondrial haplogroups. Figure from @Mitchell2014.](./images/mt-genome.png){width=60%}
 
-* Mitochondrial genome is 16569 bp long (Bolze 2021) @Bolze2021
-
-![Classification tree of mitochondrial haplogroups. Figure from @Mitchell2014.](./images/imputation.png){width=60%}
-
 ## 1.2. Mitochondrial haplogroups
 
 * Genetic variants (mutations) in mitochondrial DNA can be organized in haplogroups.
