@@ -32,7 +32,7 @@ navbar:
       
     - text: "PmD"
       icon: "fa-solid fa-people-arrows"
-      href: "PRaD.html"
+      href: "PmD.html"
       
     - text: "Inovação e Empreendedorismo"
       icon: "fa-duotone fa-people-group"

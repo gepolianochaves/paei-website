@@ -1,5 +1,5 @@
 ---
-  title: "  O que é a Pesquisa Real à Distância (PRaD)"
+  title: "Pesquisa na Modalidade à Distância (PmD)"
 ---
 
 #### Experiência prévia
@@ -18,22 +18,30 @@ Tumores adultos e tumores de crianças não apresentam mecanismos iguais de mali
 
 A natureza do trabalho desenvolvido por pesquisadores e profissionais das ciências ômicas envolve o componente computacional, por definição. O fundador do Instituto de Genômica da UCSC, Dr. David Haussler, tem Ph.D. em ciências da computação. Assim sendo, a interação entre pesquisadores, o desenvolvimento das tecnologias e algoritmos para análise e investigação da atividade dos biomarcadores são procedimentos feitos à distância ou remotamente. Desta forma, pesquisadores das ciências ômicas utilizam a internet, satélites, computação em nuvem e computação quântica para criar e entregar serviços como oportunidades de soluções por meio da pesquisa real à distância.
 
-![O marcador epigenético de DNA 5-hidroxi-metil-citosina (5-hmC) pode ser isolado de amostras de biópsia líquida (sangue) de crianças para diagnóstico de neuroblastoma.](./images/PRaD.png){width=60%}
+![O marcador epigenético de DNA 5-hidroxi-metil-citosina (5-hmC) pode ser isolado de amostras de biópsia líquida (sangue) de crianças para diagnóstico de neuroblastoma.](./images/PmD.png){width=60%}
 
-#### PRaD no *Science Internship Program* (SIP)
+#### PmD no *Science Internship Program* (SIP)
 
-No SIP, a PRaD é praticada durante os verões do hemisfério norte. Há práticas para a educação à distância que permitem maior eficiência no processo da PRaD. [Clique para obter mais informações sobre como ter uma educação à distância mais eficaz](https://www.aritzhaupt.com/distance_education/research-methods/)
+* O SIP adotou a PmD durante a pandemia de SARS-CoV-2 a partir de 2020. 
+
+* Há práticas para a educação à distância que permitem maior eficiência no processo de implementação da PmD. 
+  - [Métodos de pesquisa na Educação à Distância](https://www.aritzhaupt.com/distance_education/research-methods/)
 
 
-#### PRaD no *Treehouse Undergraduate Bioinformatics Internship* (TUBI)
+#### PmD no *Treehouse Undergraduate Bioinformatics Internship* (TUBI)
 
 Programa do Instituto de Genômica da UCSC, desenvolvido pelo laboratório da Dra. Olena Vaske, visando contribuir para o progresso da genômica de cânceres pediátricos.
 
-#### PRaD no PAEI
+#### PmD no PAEI
 
-O PAEI nasce como uma implementação da PRaD como consequência do caráter tecnológico das ciências genômicas no que se refere às linguagens de programação computacional.
+* O PAEI nasce como uma implementação da PmD como consequência do caráter tecnológico das ciências genômicas no que se refere às linguagens de programação computacional.
 
-#### PRaD no Brasil
+* Para tanto, mentores, empreendedores e estudantes colaboram no desenvolvimento e compartilhamento de código-fonte.
+
+* Instruções para o compartilhamento de código-fonte podem ser encontradas no seguinte *link*: 
+  -  [Compartilhamento de código fonte](XXXXXXXXXXXXX)
+
+#### PmD no Brasil
 
 A pesquisa na modalidade à distância é objeto de investimentos da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). A diretoria responsável é a Diretoria de Educação à Distância (DED).
 https://www.youtube.com/watch?v=5mjVZ_oLczo&t=2s
