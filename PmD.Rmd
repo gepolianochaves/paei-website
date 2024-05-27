@@ -18,7 +18,7 @@ Tumores adultos e tumores de crianças não apresentam mecanismos iguais de mali
 
 A natureza do trabalho desenvolvido por pesquisadores e profissionais das ciências ômicas envolve o componente computacional, por definição. O fundador do Instituto de Genômica da UCSC, Dr. David Haussler, tem Ph.D. em ciências da computação. Assim sendo, a interação entre pesquisadores, o desenvolvimento das tecnologias e algoritmos para análise e investigação da atividade dos biomarcadores são procedimentos feitos à distância ou remotamente. Desta forma, pesquisadores das ciências ômicas utilizam a internet, satélites, computação em nuvem e computação quântica para criar e entregar serviços como oportunidades de soluções por meio da pesquisa real à distância.
 
-![O marcador epigenético de DNA 5-hidroxi-metil-citosina (5-hmC) pode ser isolado de amostras de biópsia líquida (sangue) de crianças para diagnóstico de neuroblastoma.](./images/PmD.png){width=60%}
+![A análise bioinformática de marcadores isolados a partir da biópsia líquida do sangue é PmD por definição, pois dados genômicos são armazenados em bancos de dados públicos e disponibilizados para processamento em máquinas locais privadas.](./images/PmD.png){width=60%}
 
 #### PmD no *Science Internship Program* (SIP)
 
