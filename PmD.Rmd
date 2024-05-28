@@ -39,7 +39,8 @@ Programa do Instituto de Genômica da UCSC, desenvolvido pelo laboratório da Dr
 * Para tanto, mentores, empreendedores e estudantes colaboram no desenvolvimento e compartilhamento de código-fonte.
 
 * Instruções para o compartilhamento de código-fonte podem ser encontradas no seguinte *link*: 
-  -  [Compartilhamento de código fonte](https://tinyurl.com/gitCorndel)
+  -  [Compartilhamento de código fonte (OneDrive)](https://tinyurl.com/gitCorndel)
+  -  [Compartilhamento de código fonte (Google drive)](https://drive.google.com/file/d/1ouj3EQbKzh60pYNbqeOxHkJKJAa4BnwW/view?usp=sharing)
 
 #### PmD no Brasil
 
