@@ -1,5 +1,5 @@
 ---
-title: "Phylogenetic Analysis of Brazilian mtDNA Sequences"
+title: "Analysis of Brazilian mtDNA Sequences"
 author: "Gepoliano Chaves"
 date: "May 23rd, 2024"
 output:
@@ -9,11 +9,11 @@ output:
 bibliography: references.bib
 ---
 
-# Motivation
+# Objectives
 
-* To apply Artificial Inteligence, Machine Learning, Data Science and Bioinformatics algorithms to genomic information from samples of Brazilian ancestry available in public databases and data banks to calculate risk, phenotype, diagnostic and prognostic probabilities of disease. 
+* To apply Artificial Inteligence, Machine Learning, Data Science and Bioinformatics algorithms to genomic information from samples of Brazilian ancestry available in public databases and data banks to calculate risk, phenotype, diagnostic and prognostic scores and probabilities of neurodegenerative diseases and neuroblastoma. 
 
-* To build a tool called Gerenciamento Genômico e Algorítmico de Dados de Doenças (GERALDO) for utilization by the public with DATASUS and Programa Genomas Brasil (GenBR).
+* To build a tool called Gerenciamento Genômico e Algorítmico de Dados de Doenças (GERALDO) for utilization by the public health system of Brazil including the DATASUS R package and Programa Genomas Brasil (GenBR).
 
 # 1. Introduction
 
@@ -21,9 +21,9 @@ bibliography: references.bib
 
 * Mitochondria is an organelle that contains the martrilineal genetic information.
 
-* Mitochondrial genome is 16569 bp long (Bolze 2021) @Bolze2021
+* Mitochondrial genome is 16569 bp long @Bolze2021
 
-![Classification tree of mitochondrial haplogroups. Figure from @Mitchell2014.](./images/mt-genome.png){width=60%}
+![Organization of the mitochondrial genome. Figure from @Bolze2021.](./images/mt-genome.png){width=60%}
 
 ## 1.2. Mitochondrial haplogroups
 

@@ -14,12 +14,8 @@ As portarias de novação [CNPq, de 15 de dezembro de 2023](https://www.in.gov.b
 
 * [Inscreva seu venture para participar na colaboração PAEI/TEP](https://forms.gle/c7FLFGehWEyBReas7)
 
+### Empreendimentos desenvolvidos por cientistas brasileiros no exterior
 
+* Métodos diagnósticos e prognósticos para neuroblastoma utilizando aprendizado de máquina
 
-### Propostas de Novação e Empreendedorismo
-
-* Desenvolvimento de métodos prognósticos para neuroblastoma utilizando aprendizado de máquina
-
-* Identificação de variantes genéticas relacionadas a envelhecimento e saúde mental na população brasileira
-
-* [Phylogenetic Analysis of Brazilian mtDNA Sequences](https://paei.netlify.app/07-Phylogenetic-Analyisis_mt_BR)
+* [Variantes genéticas, envelhecimento e saúde mental da população brasileira](https://paei.netlify.app/07-Phylogenetic-Analyisis_mt_BR)

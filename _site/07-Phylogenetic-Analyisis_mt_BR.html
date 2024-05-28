@@ -12,7 +12,7 @@
 <meta name="author" content="Gepoliano Chaves" />
 
 
-<title>Phylogenetic Analysis of Brazilian mtDNA Sequences</title>
+<title>Analysis of Brazilian mtDNA Sequences</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -344,8 +344,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Phylogenetic Analysis of Brazilian mtDNA
-Sequences</h1>
+<h1 class="title toc-ignore">Analysis of Brazilian mtDNA Sequences</h1>
 <h4 class="author">Gepoliano Chaves</h4>
 <h4 class="date">May 23rd, 2024</h4>
 
@@ -353,7 +352,7 @@ Sequences</h1>
 
 <div id="TOC">
 <ul>
-<li><a href="#motivation" id="toc-motivation">Motivation</a></li>
+<li><a href="#objectives" id="toc-objectives">Objectives</a></li>
 <li><a href="#introduction" id="toc-introduction">1. Introduction</a>
 <ul>
 <li><a href="#mitochondrial-genome-and-matrilinear-information"
@@ -409,17 +408,18 @@ Extremo Sul</a></li>
 </ul>
 </div>
 
-<div id="motivation" class="section level1">
-<h1>Motivation</h1>
+<div id="objectives" class="section level1">
+<h1>Objectives</h1>
 <ul>
 <li><p>To apply Artificial Inteligence, Machine Learning, Data Science
 and Bioinformatics algorithms to genomic information from samples of
 Brazilian ancestry available in public databases and data banks to
-calculate risk, phenotype, diagnostic and prognostic probabilities of
-disease.</p></li>
+calculate risk, phenotype, diagnostic and prognostic scores and
+probabilities of neurodegenerative diseases and neuroblastoma.</p></li>
 <li><p>To build a tool called Gerenciamento Genômico e Algorítmico de
-Dados de Doenças (GERALDO) for utilization by the public with DATASUS
-and Programa Genomas Brasil (GenBR).</p></li>
+Dados de Doenças (GERALDO) for utilization by the public health system
+of Brazil including the DATASUS R package and Programa Genomas Brasil
+(GenBR).</p></li>
 </ul>
 </div>
 <div id="introduction" class="section level1">
@@ -430,15 +430,14 @@ class="section level2">
 <ul>
 <li><p>Mitochondria is an organelle that contains the martrilineal
 genetic information.</p></li>
-<li><p>Mitochondrial genome is 16569 bp long (Bolze 2021) <span
-class="citation">Bolze (2014)</span></p></li>
+<li><p>Mitochondrial genome is 16569 bp long <span
+class="citation">Bolze (2021)</span></p></li>
 </ul>
 <div class="float">
 <img src="images/mt-genome.png" style="width:60.0%"
-alt="Classification tree of mitochondrial haplogroups. Figure from Sabrina L. Mitchell (2014)." />
-<div class="figcaption">Classification tree of mitochondrial
-haplogroups. Figure from <span class="citation">Sabrina L. Mitchell
-(2014)</span>.</div>
+alt="Organization of the mitochondrial genome. Figure from Bolze (2021)." />
+<div class="figcaption">Organization of the mitochondrial genome. Figure
+from <span class="citation">Bolze (2021)</span>.</div>
 </div>
 </div>
 <div id="mitochondrial-haplogroups" class="section level2">
@@ -537,7 +536,7 @@ alignment_start_to_end &lt;- msa(seq_start_to_end)</code></pre>
 <pre><code>## use default substitution matrix</code></pre>
 <pre class="r"><code>end_time &lt;- Sys.time()
 end_time - start_time</code></pre>
-<pre><code>## Time difference of 0.06847501 secs</code></pre>
+<pre><code>## Time difference of 0.068717 secs</code></pre>
 <pre class="r"><code>alignment_start_to_end</code></pre>
 <pre><code>## CLUSTAL 2.1  
 ## 
@@ -603,9 +602,8 @@ N501Y</li>
       seq_name = T) + geom_seqlogo() + geom_msaBar()</code></pre>
 <pre><code>## Warning in rbind(c(&quot;T&quot;, &quot;A&quot;, &quot;T&quot;, &quot;T&quot;, &quot;G&quot;, &quot;A&quot;, &quot;C&quot;, &quot;T&quot;, &quot;C&quot;, &quot;A&quot;, &quot;C&quot;, :
 ## number of columns of result is not a multiple of vector length (arg 9)</code></pre>
-<pre><code>## Coordinate system already present. Adding new
-## coordinate system, which will replace the existing
-## one.</code></pre>
+<pre><code>## Coordinate system already present. Adding new coordinate system, which will
+## replace the existing one.</code></pre>
 <p><img src="07-Phylogenetic-Analyisis_mt_BR_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
 </div>
 <div id="visualization-without-sample-names" class="section level3">
@@ -619,9 +617,8 @@ N501Y</li>
       seq_name = F) + geom_seqlogo() + geom_msaBar()</code></pre>
 <pre><code>## Warning in rbind(c(&quot;T&quot;, &quot;A&quot;, &quot;T&quot;, &quot;T&quot;, &quot;G&quot;, &quot;A&quot;, &quot;C&quot;, &quot;T&quot;, &quot;C&quot;, &quot;A&quot;, &quot;C&quot;, :
 ## number of columns of result is not a multiple of vector length (arg 9)</code></pre>
-<pre><code>## Coordinate system already present. Adding new
-## coordinate system, which will replace the existing
-## one.</code></pre>
+<pre><code>## Coordinate system already present. Adding new coordinate system, which will
+## replace the existing one.</code></pre>
 <p><img src="07-Phylogenetic-Analyisis_mt_BR_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
 </div>
 </div>
@@ -697,7 +694,7 @@ table.paint(dm_extremo_sul_msa_partial_df, cleg=0, clabel.row=.5, clabel.col=.5)
 <h2>7. References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Bolze2021" class="csl-entry">
-Bolze, Alexandre. 2014. <em>Analysis of Mitochondrial DNA Variants in
+Bolze, Alexandre. 2021. <em>Analysis of Mitochondrial DNA Variants in
 200,000 Individuals</em>. <a
 href="https://cdn.sanity.io/files/g5irbagy/production/960b88f3fd681a6207e9d18b9973e99fa6df9e1f.pdf">https://cdn.sanity.io/files/g5irbagy/production/960b88f3fd681a6207e9d18b9973e99fa6df9e1f.pdf</a>.
 </div>
