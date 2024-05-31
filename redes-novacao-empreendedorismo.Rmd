@@ -16,6 +16,4 @@ As portarias de novação [CNPq, de 15 de dezembro de 2023](https://www.in.gov.b
 
 ### Empreendimentos desenvolvidos por cientistas brasileiros no exterior
 
-* [Métodos diagnósticos e prognósticos para neuroblastoma utilizando aprendizado de máquina](08-GSE62564.html)
-
-* [Variantes genéticas, envelhecimento e saúde mental da população brasileira](https://paei.netlify.app/07-Phylogenetic-Analyisis_mt_BR)
+* [GERALDO: Gerenciamento Genômico e Algorítmico de Fenótipos, Riscos, Diagnósticos e Prognósticos em Dados de Doenças em Brasileiros](GERALDO.html)
