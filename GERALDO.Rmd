@@ -2,7 +2,5 @@
   title: "GERALDO: Gerenciamento Genômico e Algorítmico de Fenótipos, Riscos, Diagnósticos e Prognósticos em Dados de Doenças em Brasileiros"
 ---
 
-* [Variantes genéticas, envelhecimento e saúde mental da população brasileira](https://paei.netlify.app/07-Phylogenetic-Analyisis_mt_BR)
-* [Conjuntos de dados de neuroblastoma](08-GSE62564.html)
-* [Algoritmo para classificação de tumores em python](15-shiny-boxplot.html)
-* [Algoritmo para classificação de tumores em R com aplicativo Shiny](16-shiny-tumor-classification.html)
+* [Artigos](artigos.html)
+* [Código](codigo.html)
