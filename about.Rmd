@@ -12,4 +12,4 @@ O primeiro programa (piloto) terá duração total de 4 semanas. O interno será
 
 Mensagens com perguntas e dúvidas podem ser encaminhadas para recombio@dnabrasil.dev.br
 
-Para mais informações sobre o idealizador do programa, visite o [CV do Gepoliano Chaves](https://chaves-academic.netlify.app).
+Para mais informações sobre o idealizador do programa, visite o [site acadêmico do Gepoliano Chaves](https://chaves-academic.netlify.app).
