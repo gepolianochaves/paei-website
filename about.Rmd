@@ -10,5 +10,6 @@ Tendo como referência o [Programa de Apoio a Laboratório Interdisciplinares de
 
 O primeiro programa (piloto) terá duração total de 4 semanas. O interno será exposto à pesquisa computacional, que faz uso de linguagens de programação, além de também entrar em contato com a escrita e apresentação científicas. Prentendemos que com o passar do tempo e crescimento do programa, grande parte ou todas as áreas do conhecimento da instituição parceira sejam contempladas no programa.
 
-Perguntas, dúvidas e mensagens podem ser encaminhadas para recombio@dnabrasil.dev.br
+Mensagens com perguntas e dúvidas podem ser encaminhadas para recombio@dnabrasil.dev.br
 
+Para mais informações sobre o idealizador do programa, visite o [CV do Gepoliano Chaves](https://chaves-academic.netlify.app).
