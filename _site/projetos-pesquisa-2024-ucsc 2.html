@@ -11,7 +11,7 @@
 
 
 
-<title>15-shiny-boxplot.knit</title>
+<title>projetos-pesquisa-2024-ucsc.knit</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -32,6 +32,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/faq-0.1.0/style.css" rel="stylesheet" />
+<script src="site_libs/faq-binding-0.1.1/faq.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -323,193 +326,8 @@ $(document).ready(function () {
 </div>
 
 
-<div id="classification-by-logistic-regression-python"
-class="section level1">
-<h1>Classification by Logistic Regression (Python)</h1>
-<div id="configuration-chunks-for-python-part" class="section level2">
-<h2>Configuration Chunks for Python Part</h2>
-<p>There was an error at the end regarding matplotlib. One reference
-link mentioned installing matplotlib before pandas.</p>
-<pre class="bash"><code>pip install matplotlib</code></pre>
-<p>Install pandas in this environment</p>
-<pre class="bash"><code>pip install pandas</code></pre>
-</div>
-<div id="shiny-application" class="section level2">
-<h2>Shiny Application</h2>
-<pre class="r"><code># Data pre-processing ----
-# Tweak the &quot;am&quot; variable to have nicer factor labels -- since this
-# doesn&#39;t rely on any user inputs, we can do this once at startup
-# and then use the value throughout the lifetime of the app
-
-library(shiny)
-library(dplyr)
-library(ggplot2)
-
-r2_gse62564_GSVA_Metadata &lt;- readRDS( &quot;~/Desktop/Gepoliano/Bioinformatics Bridge Course/2023-bioinfo-bridge-course/recombio/6-Neuroblastoma/results/r2_gse62564_GSVA_Metadata.rds&quot;)
-
-mpgData &lt;- mtcars
-mpgData$am &lt;- factor(mpgData$am, labels = c(&quot;Automatic&quot;, &quot;Manual&quot;))
-
-r2_gse62564_GSVA_Metadata$MYCN &lt;- as.numeric(r2_gse62564_GSVA_Metadata$MYCN)
-
-r2_gse62564_GSVA_Metadata$high_risk &lt;- factor(r2_gse62564_GSVA_Metadata$high_risk, labels = c(&quot;yes&quot;, &quot;no&quot;))
-r2_gse62564_GSVA_Metadata$inss_stage &lt;- factor(r2_gse62564_GSVA_Metadata$inss_stage, labels = c(&quot;st1&quot;, &quot;st2&quot;, &quot;st3&quot;, &quot;st4&quot;, &quot;st4s&quot;))
-r2_gse62564_GSVA_Metadata$mycn_status &lt;- factor(r2_gse62564_GSVA_Metadata$mycn_status, labels = c(&quot;mycn_amp&quot;, &quot;mycn_nonamp&quot;, &quot;na&quot;))
-
-# Define server logic to plot various variables against mpg ----
-server &lt;- function(input, output) {
-  
-  # Compute the formula text ----
-  # This is in a reactive expression since it is shared by the
-  # output$caption and output$mpgPlot functions
-  formulaText &lt;- reactive({
-    paste(&quot;MYCN ~&quot;, input$variable)
-  })
-  
-  # Return the formula text for printing as a caption ----
-  output$caption &lt;- renderText({
-    formulaText()
-  })
-  
-  # Generate a plot of the requested variable against mpg ----
-  # and only exclude outliers if requested
-  output$mpgPlot &lt;- renderPlot({
-    boxplot(as.formula(formulaText()),
-            data = r2_gse62564_GSVA_Metadata,
-            outline = input$outliers,
-            col = &quot;#007bc2&quot;, pch = 19)
-  })
-  
-}
-
-
-# Define UI for miles per gallon app ----
-ui &lt;- fluidPage(
-  
-  # App title ----
-  titlePanel(&quot;Gene Expression Per Clinical Variable&quot;),
-  
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(
-    
-    # Sidebar panel for inputs ----
-    sidebarPanel(
-      
-      # Input: Selector for variable to plot against mpg ----
-      selectInput(&quot;variable&quot;, &quot;Variable:&quot;,
-                  c(&quot;High Risk&quot; = &quot;high_risk&quot;,
-                    &quot;INSS Stage&quot; = &quot;inss_stage&quot;,
-                    &quot;MYCN Status&quot; = &quot;mycn_status&quot;)),
-      
-      # Input: Checkbox for whether outliers should be included ----
-      checkboxInput(&quot;outliers&quot;, &quot;Show outliers&quot;, TRUE)
-      
-    ),
-    
-    # Main panel for displaying outputs ----
-    mainPanel(
-      
-      # Output: Formatted text for caption ----
-      h3(textOutput(&quot;caption&quot;)),
-      
-      # Output: Plot of the requested variable against mpg ----
-      plotOutput(&quot;mpgPlot&quot;)
-      
-    )
-  )
-)
-
-
-# View App
-shinyApp(ui, server)</code></pre>
-</div>
-<div id="python-neuroblastoma-risk-classifier-machine"
-class="section level2">
-<h2>Python Neuroblastoma Risk Classifier Machine</h2>
-<pre class="python"><code>####################################################################
-########## Part 1: Data Pre-processing; Get started on data analysis
-####################################################################
-
-import pandas as pd
-
-
-dataset_kocak = pd.read_csv(&quot;data/r2_gse62564_GSVA_Metadata_selected.csv&quot;)
-dataset_kocak.head(10)
-
-
-X = dataset_kocak.iloc[:, 1:-1].values
-y = dataset_kocak.iloc[:, -1]
-
-
-########## Creating the Training Set and the Test Set
-
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=0)
-
-########## Feature Scaling the Feature Array
-
-from sklearn.preprocessing import StandardScaler
-# Standardization based on the features of the whole dataset (?)
-# Compute in the training set (?)
-# instance of the class
-sc = StandardScaler()
-# compute average and sd of the features
-# Takes on the array of independent variables you want to scale
-sc.fit_transform(X_train)
-# We will only need the new array of independent variables in the training set
-X_train = sc.fit_transform(X_train)
-
-###################################################
-########## Part 2 - Building and training the model
-###################################################
-
-########## Import library
-from sklearn.linear_model import LogisticRegression
-
-
-########## Building the model
-model = LogisticRegression(random_state = 0 )
-
-
-########## Training the model
-model.fit(X_train, y_train)
-
-
-########## Access coefficients for variable importance
-coefficients = model.coef_[0]
-
-
-########## Plot variable importance
-
-X_test_kocak = dataset_kocak.drop(&#39;high_risk&#39;, axis=1)
-X_test_kocak = X_test_kocak.drop(&#39;sample id&#39;, axis=1)
-
-
-########## Plot variable importance
-
-import matplotlib
-import numpy as np
-import pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-
-feature_importance = pd.DataFrame({&#39;Feature&#39;: X_test_kocak.columns, &#39;Importance&#39;: np.abs(coefficients)})
-# feature_importance = feature_importance.sort_values(&#39;Importance&#39;, ascending=True).head(70)
-feature_importance = feature_importance.sort_values(&#39;Importance&#39;, ascending=True)
-# feature_importance = feature_importance[:5000]
-feature_importance.plot(x=&#39;Feature&#39;, y=&#39;Importance&#39;, kind=&#39;barh&#39;, figsize=(10, 6))
-
-########## Inference
-
-# Predictions for the test set and for a particular patient
-y_pred = model.predict(sc.transform(X_test)) # First, call the scaler object
-
-input_string = input(&#39;Enter elements of a list separated by space \n&#39;)
-user_list = input_string.split()
-print(&#39;User list: &#39;, user_list)
-model.predict(sc.transform([user_list]))</code></pre>
-</div>
-</div>
+<div class="faq html-widget html-fill-item-overflow-hidden html-fill-item" id="faq" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="faq">{"x":{"data":{"question":["Engenharia Biomolecular e Bioinformática"],"answer":["EBB-01: Identificação de condutores moleculares de progressão e agressividade em neuroblastoma usando aprendizado de máquina. Mentores principais: Sabi Bandiri e Gepoliano Chaves. Descrição do projeto: O neuroblastoma é um câncer pediátrico do sistema nervoso periférico. Hipóxia representa uma condição biológica de concentração limitada de oxigênio que impulsiona a progressão e agressividade desta doença, além de ser importante também em outros tipos de tumores. Anteriormente, investigamos o papel da hipóxia em modelos celulares e tumores de pacientes de neuroblastoma. Acredita-se que a hipóxia conduz à desdiferenciação celular e levantamos a hipótese da existência de um estado celular de célula-tronco e pluripotência relacionado ou mantido pela hipóxia no neuroblastoma. Neste projeto iremos desenvolver modelos de aprendizado de máquina para classificar diferentes categorias de risco de neuroblastoma com base na expressão gênica e quantificação de fenótipos relacionados à hipóxia. Usaremos as ferramentas scikit-learn, PyTorch ou H2O.ai. para construir modelos de regressão logística de aprendizado de máquina para classificar diferentes categorias de risco. Usaremos diferentes conjuntos de dados biológicos para desenvolver aplicativo de web Shiny como ferramenta computacional que possa prever a categoria de risco a que um paciente pertence. Uma vez desenvolvida a ferramenta, seremos capazes de gerar modelos de aprendizado de máquina que aprendam com o estado genético do paciente no momento em que inicia-se a terapia. Então, quando pudermos interrogar a informação genética do paciente após ele ter recebido uma primeira rodada de terapia, seremos capazes de quantificar os fenótipos de risco do paciente em relação a quando o paciente foi iniciado na terapia. Em última instância, teremos gerado modelos que possam quantificar ou prever a categoria de risco a que o tipo de tumor de uma pessoa pertence, após receber um determinado tipo de terapia. Desta forma, teremos também gerado metodologias computacionais que possam mensurar a efetividade da terapia recebida pelo paciente do ponto de vista de mudanças na expressão genética e epigenética em tumores, especificamente em neuroblastoma.\n\n\nListas das Atividades:\n\n• Baixar conjuntos de dados de neuroblastoma disponíveis publicamente;\n• Interagir com Python e R para extrair informações biológicas, fenotípicas e metadados das amostras baixadas;\n• Determinar quais informações são relevantes para serem mostradas ao público da comunidade PAEI e ao público científico profissional sobre o desenvolvimento do projeto;\n• Apresentar dados de pesquisa; e\n• Escrever artigos científicos com objetivo de enviar para revistas científicas e/ou congressos nacionais e internacionais juniores.\n"]},"faqtitle":"UNILAB/UCSC","expand_all_button_text":"+ Expand All","collapse_all_button_text":"- Collapse All","content_background_color":"white"},"evals":[],"jsHooks":[]}</script>
 
 
 

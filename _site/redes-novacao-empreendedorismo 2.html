@@ -11,7 +11,7 @@
 
 
 
-<title>15-shiny-boxplot.knit</title>
+<title>Redes de Novação e Empreendedorismo</title>
 
 <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -319,196 +319,51 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Redes de Novação e Empreendedorismo</h1>
 
 </div>
 
 
-<div id="classification-by-logistic-regression-python"
-class="section level1">
-<h1>Classification by Logistic Regression (Python)</h1>
-<div id="configuration-chunks-for-python-part" class="section level2">
-<h2>Configuration Chunks for Python Part</h2>
-<p>There was an error at the end regarding matplotlib. One reference
-link mentioned installing matplotlib before pandas.</p>
-<pre class="bash"><code>pip install matplotlib</code></pre>
-<p>Install pandas in this environment</p>
-<pre class="bash"><code>pip install pandas</code></pre>
+<div id="redes-de-pesquisa-entre-ex-bolsistas-brasileiros-no-exterior"
+class="section level3">
+<h3>Redes de pesquisa entre ex-bolsistas brasileiros no exterior</h3>
+<p>As portarias de novação <a
+href="https://www.in.gov.br/en/web/dou/-/portaria-cnpq-n-1.594-de-15-de-dezembro-de-2023-531778458?fbclid=IwAR3yYTPMuyG_nY0lGTujLU9Dwgo2o7pl7OpqHSBs6WEIkgGQ61tfO10qrqE">CNPq,
+de 15 de dezembro de 2023</a> e <a
+href="http://cad.capes.gov.br/ato-administrativo-detalhar?idAtoAdmElastic=13822">CAPES,
+de 19 de dezembro de 2023</a>, estabeleceram a oportunidade de
+ex-bolsistas financiados por estas agências, de contribuírem com o
+avanço da Educação Básica, Ciência, Tecnologia e Inovação brasileiras a
+partir do exterior. Através da parceria entre o PAEI e o Talent Exchange
+Program (TEP), buscamos estabelecer mecanismos que cooperem com o
+desenvolvimento brasileiro através da internacionalização e
+empreendedorismo. Saiba mais sobre iniciativas entre ex-bolsistas
+brasileiros no exterior que visam estabelecer redes de colaboração
+internacional através do empreendedorismo e intercâmbio acadêmicos
+visitando os links abaixo.</p>
 </div>
-<div id="shiny-application" class="section level2">
-<h2>Shiny Application</h2>
-<pre class="r"><code># Data pre-processing ----
-# Tweak the &quot;am&quot; variable to have nicer factor labels -- since this
-# doesn&#39;t rely on any user inputs, we can do this once at startup
-# and then use the value throughout the lifetime of the app
-
-library(shiny)
-library(dplyr)
-library(ggplot2)
-
-r2_gse62564_GSVA_Metadata &lt;- readRDS( &quot;~/Desktop/Gepoliano/Bioinformatics Bridge Course/2023-bioinfo-bridge-course/recombio/6-Neuroblastoma/results/r2_gse62564_GSVA_Metadata.rds&quot;)
-
-mpgData &lt;- mtcars
-mpgData$am &lt;- factor(mpgData$am, labels = c(&quot;Automatic&quot;, &quot;Manual&quot;))
-
-r2_gse62564_GSVA_Metadata$MYCN &lt;- as.numeric(r2_gse62564_GSVA_Metadata$MYCN)
-
-r2_gse62564_GSVA_Metadata$high_risk &lt;- factor(r2_gse62564_GSVA_Metadata$high_risk, labels = c(&quot;yes&quot;, &quot;no&quot;))
-r2_gse62564_GSVA_Metadata$inss_stage &lt;- factor(r2_gse62564_GSVA_Metadata$inss_stage, labels = c(&quot;st1&quot;, &quot;st2&quot;, &quot;st3&quot;, &quot;st4&quot;, &quot;st4s&quot;))
-r2_gse62564_GSVA_Metadata$mycn_status &lt;- factor(r2_gse62564_GSVA_Metadata$mycn_status, labels = c(&quot;mycn_amp&quot;, &quot;mycn_nonamp&quot;, &quot;na&quot;))
-
-# Define server logic to plot various variables against mpg ----
-server &lt;- function(input, output) {
-  
-  # Compute the formula text ----
-  # This is in a reactive expression since it is shared by the
-  # output$caption and output$mpgPlot functions
-  formulaText &lt;- reactive({
-    paste(&quot;MYCN ~&quot;, input$variable)
-  })
-  
-  # Return the formula text for printing as a caption ----
-  output$caption &lt;- renderText({
-    formulaText()
-  })
-  
-  # Generate a plot of the requested variable against mpg ----
-  # and only exclude outliers if requested
-  output$mpgPlot &lt;- renderPlot({
-    boxplot(as.formula(formulaText()),
-            data = r2_gse62564_GSVA_Metadata,
-            outline = input$outliers,
-            col = &quot;#007bc2&quot;, pch = 19)
-  })
-  
-}
-
-
-# Define UI for miles per gallon app ----
-ui &lt;- fluidPage(
-  
-  # App title ----
-  titlePanel(&quot;Gene Expression Per Clinical Variable&quot;),
-  
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(
-    
-    # Sidebar panel for inputs ----
-    sidebarPanel(
-      
-      # Input: Selector for variable to plot against mpg ----
-      selectInput(&quot;variable&quot;, &quot;Variable:&quot;,
-                  c(&quot;High Risk&quot; = &quot;high_risk&quot;,
-                    &quot;INSS Stage&quot; = &quot;inss_stage&quot;,
-                    &quot;MYCN Status&quot; = &quot;mycn_status&quot;)),
-      
-      # Input: Checkbox for whether outliers should be included ----
-      checkboxInput(&quot;outliers&quot;, &quot;Show outliers&quot;, TRUE)
-      
-    ),
-    
-    # Main panel for displaying outputs ----
-    mainPanel(
-      
-      # Output: Formatted text for caption ----
-      h3(textOutput(&quot;caption&quot;)),
-      
-      # Output: Plot of the requested variable against mpg ----
-      plotOutput(&quot;mpgPlot&quot;)
-      
-    )
-  )
-)
-
-
-# View App
-shinyApp(ui, server)</code></pre>
+<div id="iniciativas-para-intercâmbio-de-pesquisadores-brasileiros"
+class="section level3">
+<h3>Iniciativas para intercâmbio de pesquisadores brasileiros</h3>
+<ul>
+<li><p><a href="https://idl.ventures">Conheça a IDL
+Ventures</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=h9QRf83-3lc">Veja a
+gravação da primeira interação entre ex-bolsistas e o TEP</a></p></li>
+<li><p><a href="https://forms.gle/c7FLFGehWEyBReas7">Inscreva seu
+venture para participar na colaboração PAEI/TEP</a></p></li>
+</ul>
 </div>
-<div id="python-neuroblastoma-risk-classifier-machine"
-class="section level2">
-<h2>Python Neuroblastoma Risk Classifier Machine</h2>
-<pre class="python"><code>####################################################################
-########## Part 1: Data Pre-processing; Get started on data analysis
-####################################################################
-
-import pandas as pd
-
-
-dataset_kocak = pd.read_csv(&quot;data/r2_gse62564_GSVA_Metadata_selected.csv&quot;)
-dataset_kocak.head(10)
-
-
-X = dataset_kocak.iloc[:, 1:-1].values
-y = dataset_kocak.iloc[:, -1]
-
-
-########## Creating the Training Set and the Test Set
-
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, random_state=0)
-
-########## Feature Scaling the Feature Array
-
-from sklearn.preprocessing import StandardScaler
-# Standardization based on the features of the whole dataset (?)
-# Compute in the training set (?)
-# instance of the class
-sc = StandardScaler()
-# compute average and sd of the features
-# Takes on the array of independent variables you want to scale
-sc.fit_transform(X_train)
-# We will only need the new array of independent variables in the training set
-X_train = sc.fit_transform(X_train)
-
-###################################################
-########## Part 2 - Building and training the model
-###################################################
-
-########## Import library
-from sklearn.linear_model import LogisticRegression
-
-
-########## Building the model
-model = LogisticRegression(random_state = 0 )
-
-
-########## Training the model
-model.fit(X_train, y_train)
-
-
-########## Access coefficients for variable importance
-coefficients = model.coef_[0]
-
-
-########## Plot variable importance
-
-X_test_kocak = dataset_kocak.drop(&#39;high_risk&#39;, axis=1)
-X_test_kocak = X_test_kocak.drop(&#39;sample id&#39;, axis=1)
-
-
-########## Plot variable importance
-
-import matplotlib
-import numpy as np
-import pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import StandardScaler
-
-feature_importance = pd.DataFrame({&#39;Feature&#39;: X_test_kocak.columns, &#39;Importance&#39;: np.abs(coefficients)})
-# feature_importance = feature_importance.sort_values(&#39;Importance&#39;, ascending=True).head(70)
-feature_importance = feature_importance.sort_values(&#39;Importance&#39;, ascending=True)
-# feature_importance = feature_importance[:5000]
-feature_importance.plot(x=&#39;Feature&#39;, y=&#39;Importance&#39;, kind=&#39;barh&#39;, figsize=(10, 6))
-
-########## Inference
-
-# Predictions for the test set and for a particular patient
-y_pred = model.predict(sc.transform(X_test)) # First, call the scaler object
-
-input_string = input(&#39;Enter elements of a list separated by space \n&#39;)
-user_list = input_string.split()
-print(&#39;User list: &#39;, user_list)
-model.predict(sc.transform([user_list]))</code></pre>
-</div>
+<div
+id="empreendimentos-desenvolvidos-por-cientistas-brasileiros-no-exterior"
+class="section level3">
+<h3>Empreendimentos desenvolvidos por cientistas brasileiros no
+exterior</h3>
+<ul>
+<li><a href="GERALDO.html">GERALDO: Gerenciamento Genômico e Algorítmico
+de Fenótipos, Riscos, Diagnósticos e Prognósticos em Dados de Doenças em
+Brasileiros</a></li>
+</ul>
 </div>
 
 
