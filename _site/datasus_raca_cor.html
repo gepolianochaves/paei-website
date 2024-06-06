@@ -397,12 +397,79 @@ library(tidyverse)</code></pre>
 dados &lt;- readRDS(&quot;data/dados.rds&quot;)
 end_time &lt;- Sys.time()
 end_time - start_time</code></pre>
-<pre><code>## Time difference of 0.9437048 secs</code></pre>
+<pre><code>## Time difference of 0.47367 secs</code></pre>
 </div>
 <div id="contagens" class="section level2">
 <h2>Contagens</h2>
-<pre class="r"><code>library(expss)
-cross_cases(dados, RACACOR)</code></pre>
+<pre class="r"><code>library(expss)</code></pre>
+<pre><code>## Warning: package &#39;expss&#39; was built under R version 4.1.2</code></pre>
+<pre class="r"><code>cross_cases(dados, RACACOR)</code></pre>
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr>
+<th style="border-bottom: 1px solid grey; font-weight: 900; border-top: 2px solid grey; text-align: center;">
+</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">
+ #Total 
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" style="font-weight: 900;">
+ RACACOR 
+</td>
+</tr>
+<tr>
+<td style="text-align: left;">
+   1 
+</td>
+<td style="text-align: right;">
+289548
+</td>
+</tr>
+<tr>
+<td style="text-align: left;">
+   2 
+</td>
+<td style="text-align: right;">
+51222
+</td>
+</tr>
+<tr>
+<td style="text-align: left;">
+   3 
+</td>
+<td style="text-align: right;">
+1840
+</td>
+</tr>
+<tr>
+<td style="text-align: left;">
+   4 
+</td>
+<td style="text-align: right;">
+151858
+</td>
+</tr>
+<tr>
+<td style="text-align: left;">
+   5 
+</td>
+<td style="text-align: right;">
+512
+</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid grey; text-align: left;">
+   #Total cases 
+</td>
+<td style="border-bottom: 2px solid grey; text-align: right;">
+494980
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="constrói-df-com-identificação-racial" class="section level2">
 <h2>Constrói DF com identificação racial</h2>

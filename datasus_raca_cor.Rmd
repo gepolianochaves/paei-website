@@ -46,7 +46,7 @@ end_time - start_time
 
 ## Contagens
 
-```{r check dataframe, message=F, eval=F}
+```{r check dataframe, message=F}
 library(expss)
 cross_cases(dados, RACACOR)
 ```
