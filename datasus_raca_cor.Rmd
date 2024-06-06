@@ -9,8 +9,7 @@ output:
 bibliography: references.bib
 ---
 
-Para verificação da variável raça/cor foi utilizado o vídeo do Fábio Rocha @Rocha2023 Referencia:
-https://www.youtube.com/watch?v=3jLhC2PXi3M
+Para verificação da variável raça/cor foi utilizado o vídeo do Fábio @Rocha2023 referência.
 
 ## Load libraries
 
