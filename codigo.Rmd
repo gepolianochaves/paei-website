@@ -5,6 +5,7 @@
 ### Envelhecimento e Bem-Estar
 
 * [Variantes genéticas, envelhecimento e saúde mental da população brasileira](https://paei.netlify.app/07-Phylogenetic-Analyisis_mt_BR)
+* [Acessando dados DATASUS para modelagem](https://paei.netlify.app/datasus_raca_cor)
 
 ### Oncologia
 
