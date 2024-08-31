@@ -1,4 +1,11 @@
 name: "paei-website"
+header-includes:
+   - \usepackage{setspace}
+   - \singlespacing
+fontsize: 11pt
+mainfont: Calibri
+sansfont: Calibri
+monofont: Calibri
 navbar:
   title: "Programa Acadêmico de Estágio e Intercâmbio (PAEI)"
   type: "inverse"
@@ -8,9 +15,9 @@ navbar:
       icon: "fa-home"
       href: index.html
       
-    - text: "Sobre nós"  
-      icon: "fa-solid fa-circle-info"
-      href: "about.html"
+    # - text: "Sobre nós"  
+    #   icon: "fa-solid fa-circle-info"
+    #   href: "about.html"
       
     - text: "Inscrições"  
       icon: "fa-duotone fa-address-card"
