@@ -8,9 +8,9 @@ navbar:
       icon: "fa-home"
       href: index.html
       
-    - text: "Sobre nós"  
-      icon: "fa-solid fa-circle-info"
-      href: "about.html"
+    # - text: "Sobre nós"  
+    #   icon: "fa-solid fa-circle-info"
+    #   href: "about.html"
       
     - text: "Inscrições"  
       icon: "fa-duotone fa-address-card"
