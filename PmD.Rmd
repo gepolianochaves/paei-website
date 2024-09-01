@@ -56,17 +56,15 @@ A pesquisa real na modalidade à distância (PmD) visa contribuir para o avanço
 
 \
 
-##### PAEI
+##### Programa Acadêmico de Estágio e Intercâmbio (PAEI)
 
 \
 
 * Implementação da PmD usando o caráter tecnológico e assíncrono da ciência genômica e das linguagens de programação computacional.
 
-* Pesquisadores mentores, empreendedores e estudantes compartilham e desenvolvem código-fonte desenvolvendo a CT&I genômica brasileira.
+* Pesquisadores mentores, empreendedores e estudantes compartilham e desenvolvem código-fonte contribuindo com a CT&I genômica brasileira.
 
-* Instruções para o compartilhamento de código-fonte podem ser encontradas no seguinte *link*: 
-  -  [Compartilhamento de código fonte (OneDrive)](https://tinyurl.com/gitCorndel)
-  -  [Compartilhamento de código fonte (Google drive)](https://drive.google.com/file/d/1ouj3EQbKzh60pYNbqeOxHkJKJAa4BnwW/view?usp=sharing)
+* Compartilhamento e versionamento de código-fonte ocorrem usando o GitHub e instruções para seu uso encontram-se no [OneDrive](https://tinyurl.com/gitCorndel) e no [Google drive ](https://drive.google.com/file/d/1ouj3EQbKzh60pYNbqeOxHkJKJAa4BnwW/view?usp=sharing).
   
 \
 
