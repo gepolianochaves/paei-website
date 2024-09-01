@@ -37,35 +37,32 @@ A pesquisa real na modalidade à distância (PmD) visa contribuir para o avanço
 
 \
 
-#### *Science Internship Program* (SIP)
+##### *Science Internship Program* (SIP)
 
 \
 
-* O SIP adotou a PmD durante a pandemia de SARS-CoV-2 a partir de 2020. 
-
-* Há práticas para a educação à distância que permitem maior eficiência no processo de implementação da PmD. 
-  - [Métodos de pesquisa na educação à distância](https://www.aritzhaupt.com/distance_education/research-methods/)
+* Oferece a alunos motivados e avançados oportunidade única de trabalhar e aprender em instituição de pesquisa de primeira linha.
   
 \
 
 
-#### *Treehouse Undergraduate Bioinformatics Internship* (TUBI)
+##### *Treehouse Undergraduate Bioinformatics Internship* (TUBI)
 
 \
 
-* Programa de imersão em bioinformática do Instituto de Genômica da UCSC, desenvolvido pelo laboratório da Dra. Olena Vaske
+* Programa de imersão em bioinformática do *Treehouse Project* no Instituto de Genômica da UCSC que promove o desenvolvido da pesquisa computacional aplicada à genômica.
 
-* Tem como objetivo contribuir para o progresso e uso da genômica de cânceres pediátricos.
-
-\
-
-#### PAEI
+* Busca contribuir para o progresso e uso da genômica em cânceres pediátricos.
 
 \
 
-* Nasce como uma implementação da PmD como consequência do caráter tecnológico das ciências genômicas no que se refere às linguagens de programação computacional.
+##### PAEI
 
-* Para tanto, mentores, empreendedores e estudantes colaboram no desenvolvimento e compartilhamento de código-fonte.
+\
+
+* Implementação da PmD usando o caráter tecnológico e assíncrono da ciência genômica e das linguagens de programação computacional.
+
+* Pesquisadores mentores, empreendedores e estudantes compartilham e desenvolvem código-fonte desenvolvendo a CT&I genômica brasileira.
 
 * Instruções para o compartilhamento de código-fonte podem ser encontradas no seguinte *link*: 
   -  [Compartilhamento de código fonte (OneDrive)](https://tinyurl.com/gitCorndel)

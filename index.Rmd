@@ -53,15 +53,7 @@ O PAEI oferece ao estudante de ensino médio (ou recém egresso), contato com pe
 \
 
 
-<<<<<<< Updated upstream
-No PAEI, buscamos valorizar a experiência do professor da educação básica, desenvolvendo estratégias para melhoria do desempenho e aprendizagem, estimulando interesse em educação, ciência e tecnologia em alunos brasileiros. Jovens pesquisadores são expostos a linguagens de programação e receberem instrução para escrita e apresentação científicas. O acompanhamento é feito com a [pesquisa na modalidade à distância](https://paei.netlify.app/pmd). Perguntas e dúvidas podem ser encaminhadas para recombio.paei@gmail.com.
-=======
 No PAEI, buscamos valorizar a experiência do professor da educação básica, desenvolvendo estratégias para melhoria do desempenho e aprendizagem, estimulando interesse em educação, ciência e tecnologia em alunos brasileiros. Jovens pesquisadores são expostos a linguagens de programação e receberem instrução para escrita e apresentação científicas. O acompanhamento é feito [pesquisa na modalidade à distância](https://paei.netlify.app/pmd). Perguntas e dúvidas podem ser encaminhadas para recombio.paei@gmail.com.
->>>>>>> Stashed changes
-
-
-
-
 
 
 \
