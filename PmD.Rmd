@@ -4,35 +4,64 @@
 
 \
 
+\
+
 ### Experiências prévias
+
+\
 
 \
 
 Baseado na atuação do Dr. Raja GuhaThakurta e do Dr. Gepoliano Chaves no *Science Internship Program* (SIP), o PAEI disponibiliza a [pesquisa real na modalidade à distância](https://www.youtube.com/watch?v=Z0WTzVNB2g4) para a Educação, Ciência e Tecnologia brasileiras.
 
+\
 
 
-A pesquisa real na modalidade à distância (PmD) visa contribuir para o avanço científico na fronteira do conhecimento, como a pesquisa real regular, fazendo porém uso de tecnologias que não necessitam de contato presencial como na pesquisa acadêmica regular.
+A pesquisa real na modalidade à distância (PmD) visa contribuir para o avanço científico na fronteira do conhecimento, como a pesquisa real regular, porém sem o contato presencial da pesquisa acadêmica regular entre os participantes.
 
 \
 
-### Exemplos de Pesquisa Real à Distância
+\
+
+<center>
+
+![](images/pmd-2.jpg){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+### Experiências de Pesquisa para Estudantes (EPEs)
+
+\
 
 #### *Science Internship Program* (SIP)
+
+\
 
 * O SIP adotou a PmD durante a pandemia de SARS-CoV-2 a partir de 2020. 
 
 * Há práticas para a educação à distância que permitem maior eficiência no processo de implementação da PmD. 
   - [Métodos de pesquisa na educação à distância](https://www.aritzhaupt.com/distance_education/research-methods/)
+  
+\
 
 
 #### *Treehouse Undergraduate Bioinformatics Internship* (TUBI)
+
+\
 
 * Programa de imersão em bioinformática do Instituto de Genômica da UCSC, desenvolvido pelo laboratório da Dra. Olena Vaske
 
 * Tem como objetivo contribuir para o progresso e uso da genômica de cânceres pediátricos.
 
+\
+
 #### PAEI
+
+\
 
 * Nasce como uma implementação da PmD como consequência do caráter tecnológico das ciências genômicas no que se refere às linguagens de programação computacional.
 
@@ -41,8 +70,12 @@ A pesquisa real na modalidade à distância (PmD) visa contribuir para o avanço
 * Instruções para o compartilhamento de código-fonte podem ser encontradas no seguinte *link*: 
   -  [Compartilhamento de código fonte (OneDrive)](https://tinyurl.com/gitCorndel)
   -  [Compartilhamento de código fonte (Google drive)](https://drive.google.com/file/d/1ouj3EQbKzh60pYNbqeOxHkJKJAa4BnwW/view?usp=sharing)
+  
+\
 
 #### PmD no Brasil
+
+\
 
 A pesquisa na modalidade à distância é objeto de investimentos da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). A diretoria responsável é a Diretoria de Educação à Distância (DED).
 https://www.youtube.com/watch?v=5mjVZ_oLczo&t=2s
