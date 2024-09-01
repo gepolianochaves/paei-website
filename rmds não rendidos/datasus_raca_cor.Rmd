@@ -1,0 +1,92 @@
+---
+title: "Accessing the Raça/Cor Variable in DATASUS"
+author: "Gepoliano Chaves"
+date: "June 5th, 2024"
+output:
+  html_document:
+    df_print: paged
+    toc: true
+bibliography: references.bib
+---
+
+Para verificação da variável raça/cor foi utilizado o vídeo do Fábio @Rocha2023 referência.
+
+## Load libraries
+
+
+```{r load libraries, message=F, warning=F}
+library(microdatasus)
+library(dplyr)
+library(tidyverse)
+```
+
+## Coleta de dados
+
+```{r fetch datasus, eval=F}
+dados = fetch_datasus(year_start = 2000,
+                      year_end = 2005,
+                      uf = "MG",
+                      information_system = "SIM-DO")
+```
+
+Salvando dados. Sempre salvar dados baixados de fonte externa como .rds, pois salvará tempo.
+
+```{r save data, eval=F}
+saveRDS(dados, file = "data/dados.rds")
+```
+
+## Carregando dados com cálculo de tempo.
+
+```{r}
+start_time <- Sys.time()
+dados <- readRDS("data/dados.rds")
+end_time <- Sys.time()
+end_time - start_time
+```
+
+## Contagens
+
+```{r check dataframe, message=F}
+library(expss)
+cross_cases(dados, RACACOR)
+```
+
+## Constrói DF com identificação racial
+
+numero total de brancos, pardos, pretos, amarelos, indígenas
+
+```{r sort dataframe}
+racacor_df <- dados %>% count(RACACOR, sort = TRUE)
+```
+
+## Transformar variável Raça/Cor
+
+Transforma coluna com caracteres em nomes de raça/cor
+
+```{r ifelse raca cor}
+racacor_df <- racacor_df %>%
+  dplyr::mutate(raca_cor_factor = ifelse(racacor_df$RACACOR == "1", "branca", 
+                                         ifelse(racacor_df$RACACOR == "2", "parda",
+                                                ifelse(racacor_df$RACACOR == "3", "preta",
+                                                       ifelse(racacor_df$RACACOR == "4", "amarela", 
+                                                              ifelse(racacor_df$RACACOR == "5", "indígena",
+                                                                     ifelse(racacor_df$RACACOR == "9", "ignorado","0")))))))
+```
+
+## Gráfico de barras Raça/Cor
+
+Nesta parte, poderemos estimar o número de indivíduos sob risco, considerando as categorias raciais brasileiras.
+
+```{r barplot}
+library(ggplot2)
+# Basic barplot
+ggplot(data=racacor_df, aes(x=raca_cor_factor, y=n)) +
+  geom_bar(stat="identity")
+```
+
+
+## References
+
+<div id="refs"></div>
+
+
