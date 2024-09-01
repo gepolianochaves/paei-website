@@ -1,0 +1,16 @@
+"0","addr = paste(""title"",  ""project"", ""other string"", sep=""\n"")
+"
+"2","Warning messages:
+"
+"2","1: "
+"2","In readLines(index, encoding = encoding) :"
+"2","
+ "
+"2"," incomplete final line found on '/Users/gepolianochaves/Desktop/Gepoliano/paei-website/index.Rmd'
+"
+"2","2: "
+"2","In readLines(index, encoding = encoding) :"
+"2","
+ "
+"2"," incomplete final line found on '/Users/gepolianochaves/Desktop/Gepoliano/paei-website/index.Rmd'
+"
