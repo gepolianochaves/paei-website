@@ -8,11 +8,24 @@ title: "Quem Somos"
 
 \
 
-O Programa Acadêmico de Estágio e Intercâmbio (PAEI) foi desenhado para contemplar falantes de Português com pesquisa científica em instituição de língua portuguesa em parceria com instituições do exterior. 
+O Programa Acadêmico de Estágio e Intercâmbio (PAEI) foi desenhado para contemplar falantes de Português com pesquisa científica em instituição de língua portuguesa em parceria com instituições do exterior. O PAEI é inspirado no [Science Internship Program](https://sip.ucsc.edu/about/) (SIP) da Universidade da Califórnia Santa Cruz ([UCSC](https://www.ucsc.edu)), onde o idealizador atua há pelo menos 8 anos. Para informações sobre o idealizador, visite o [site acadêmico do Gepoliano Chaves](https://chaves-academic.netlify.app). 
 
 \
 
-O PAEI é inspirado no [Science Internship Program](https://sip.ucsc.edu/about/) (SIP) da Universidade da Califórnia Santa Cruz ([UCSC](https://www.ucsc.edu)), onde o idealizador atua há pelo menos 8 anos. Para informações sobre o idealizador, visite o [site acadêmico do Gepoliano Chaves](https://chaves-academic.netlify.app). 
+\
+
+\
+
+<center>
+
+![](images/sip_np.jpeg){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
 
 \
 
@@ -42,16 +55,15 @@ O PAEI oferece ao estudante de ensino médio (ou recém egresso), contato com pe
 
 <center>
 
-![](images/sip_np.jpeg){width=60% style="display: block; margin: 0 auto"}
+![](images/paei-tradução.jpg){width=60% style="display: block; margin: 0 auto"}
+
 
 </center>
 
-\
 
 \
 
 \
-
 
 No PAEI, buscamos valorizar a experiência do professor da educação básica, desenvolvendo estratégias para melhoria do desempenho e aprendizagem, estimulando interesse em educação, ciência e tecnologia em alunos brasileiros. Jovens pesquisadores são expostos a linguagens de programação e receberem instrução para escrita e apresentação científicas. O acompanhamento é feito [pesquisa na modalidade à distância](https://paei.netlify.app/pmd). Perguntas e dúvidas podem ser encaminhadas para recombio.paei@gmail.com.
 
@@ -61,15 +73,6 @@ No PAEI, buscamos valorizar a experiência do professor da educação básica, d
 \
 
 \
-
-
-<center>
-
-![](images/paei-tradução.jpg){width=60% style="display: block; margin: 0 auto"}
-
-
-</center>
-
 
 \
 
