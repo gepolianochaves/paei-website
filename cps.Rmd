@@ -1,0 +1,516 @@
+---
+  title: "A Database to Store and Process DNA Data"
+---
+
+\
+
+\
+
+\
+
+In preparation for the Science Fair Projects week we conducted an experimental practice during the Science class of Ms. Danita Williams at Edmund Burke Elementary School.
+
+\
+
+\
+
+\
+
+
+### Introduction
+
+
+\
+
+\
+
+\
+
+We exposed students of the CPS Burke Elementary School in Chicago to the science of DNA extraction. For that we extracted DNA from strawberries using kitchen ingredients.
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/strawberry.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+Initially I explained to the students that there are two important parts of the strawberry plant that we are interested: the fruits and the stolons:
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/fruits-stolons.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+We have economic and nutritional interest on the fruits because they can be eaten and sold. Similarly, we have interest in the stolons because they allow the plant to reproduce:
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/strawberry_parts.png){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+In this video, the students and I debate an introduction to the genetics of flowering and vegetative reproduction of strawberries:
+
+\
+
+\
+
+\
+
+<center>
+
+<iframe src="https://drive.google.com/file/d/1imj5m53oubRYv4M6RnzEtv6OVbgnv-UB/preview" width="640" height="480" allow="autoplay"></iframe>
+
+<center>
+
+
+\
+
+\
+
+\
+
+### Materials and Methods
+
+\
+
+\
+
+\
+
+Once we understood the reasons to understand the genetics of strawberries, we followed a protocol to extract the DNA using simple ingredients.
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/How_to_extract_DNA_from_a_strawberry_508.png){width=80% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+Students engaged in asking questions and understanding the steps that allow DNA to be extracted.
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/students_questions.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/students.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+Students added strawberries to the plastic bag and smashed the fruit (or pseudofruit?):
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/bag.jpeg){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/smash.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+I prepared in advance an extraction solution, the one we are pointing to in the orange juice bottle. The solution contains detergent, salt and water. That solution is added to the plastic bag and then mixed with the smashed strawberry to expose and extract the DNA from the nucleous of the cells of the strawberry:
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/detergent.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/extraction1.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/extraction2.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/mix.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+
+\
+
+\
+
+\
+
+Students mixed the extraction solution and smashed DNA to facilitate extraction of DNA:
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/hand_mix.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+We then filter the solution to remove remainings of strawberry fruit and keep DNA in the solution:
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/filter.png){width=40% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+We then pass all DNA solution through the coffee paper filter ...
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/squish.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+... and add isopropanol ...
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/isopropanol.jpeg){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+### Results
+
+\
+
+\
+
+\
+
+
+... to precipitate the strawberry DNA:
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/precipitation.JPG){width=60% style="display: block; margin: 0 auto"}
+
+</center>
+
+\
+
+\
+
+\
+
+
+This is the DNA we precipitated using isopropanol:
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/extracted_DNA.png){width=60% style="display: block; margin: 0 auto"}
+
+<center>
+
+\
+
+\
+
+\
+
+### Discussion
+
+\
+
+\
+
+\
+
+We ended up reading some scientific papers to understand the model proposed for flowering and vegetative reproduction of strawberry:
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/articles.png){width=60% style="display: block; margin: 0 auto"}
+<center>
+
+\
+
+\
+
+\
+
+And learned that a database to store DNA information is useful in strawberry scientific research. In the short video below I explain the concept of a database to store strawbarry mutations in a text file in the computer:
+
+\
+
+\
+
+\
+
+<center>
+
+<iframe src="https://drive.google.com/file/d/1PPleOLMS9KBltJEq_FxjStoEas2Jsm2L/preview" width="640" height="480" allow="autoplay"></iframe>
+<center>
+
+\
+
+\
+
+\
+
+A database to store genetic and phenotypic strawberry information stores information about the DNA sequence of the strawberry that we just extracted. We can make predicitons about the strawberry using the DNA data.
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/database.png){width=70% style="display: block; margin: 0 auto"}
+<center>
+
+\
+
+\
+
+\
+
+
+### Conclusion
+
+\
+
+\
+
+\
+
+We were able to extract DNA from strawberries using simple kitchen ingredients. DNA has a jelly texture and is responsible for reproduction of cells, plants and animals. Analysing DNA is important to understand how different species, including the human species, interact with the environment.
+
+
+\
+
+\
+
+\
+
+
+<center>
+
+![](images/end.png){width=60% style="display: block; margin: 0 auto"}
+
+<center>
+
+\
+
+\
+
+\
+
+Thank you Teacher Danita Williams and Principal Lauren Norwood for allowing this science practice to happen!
+
+\
+
+\
+
+\
+
+<center>
+
+![](images/final_picture.png){width=60% style="display: block; margin: 0 auto"}
+
+<center>
+
+\
+
+\
+
+\

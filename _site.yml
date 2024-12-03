@@ -24,11 +24,15 @@ navbar:
       icon: "fa-solid fa-earth-americas"
       href: "eventos-de-traducao.html"
       
-    - text: "Projetos (2024)"
+    - text: "Projetos"
       icon: "fa-solid fa-laptop-file"
       menu:
         - text: "UNILAB/UCSC"
           href: "projetos-pesquisa-2024-ucsc.html"
+          
+    - text: "CPS"
+      icon: "fa-solid"
+      href: "cps.html"
           
     - text: "Mentores"
       icon: "fa-light fa-person-chalkboard"
