@@ -1,0 +1,12 @@
+```{r, echo=F, warning=F, message=F}
+
+library(faq)
+
+df <- data.frame(
+  question = c("Ana Bottura", "Daniel Micha" , "Gepoliano Chaves"),
+  
+  answer = c("Graduação em Biologia, mestrado em Biologia, doutorado em Biologia",
+             "Graduação em Física, mestrado em Física, doutorado em Física",
+             "Integração de dados Genômicos ao Sistema de Saúde Público Brasileiro (SUS)")
+)
+faq::faq(data = df, elementId = "faq", faqtitle = "PICEI/DED/CAPES")

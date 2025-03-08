@@ -12,6 +12,14 @@ navbar:
       icon: "fa-solid fa-people-arrows"
       href: "PmD.html"
       
+    - text: "Lab Virtual"
+      icon: "fas fa-flask"
+      menu:
+        - text: "PICEI/DED/CAPES"
+          href: "picei-ded-capes.html"
+        - text: "Pesquisadores no Exterior"
+          href: "pesquisadores-exterior.html"
+      
     # - text: "Sobre nós"  
     #   icon: "fa-solid fa-circle-info"
     #   href: "about.html"
