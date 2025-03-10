@@ -35,12 +35,11 @@ navbar:
     - text: "Projetos"
       icon: "fa-solid fa-laptop-file"
       menu:
+        - text: "Chicago Public Schools (CPS)"
+          href: "cps.html"
         - text: "UNILAB/UCSC"
           href: "projetos-pesquisa-2024-ucsc.html"
-          
-    - text: "CPS"
-      icon: "fa-solid"
-      href: "cps.html"
+
           
     - text: "Mentores"
       icon: "fa-light fa-person-chalkboard"
