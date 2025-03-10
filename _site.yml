@@ -14,11 +14,7 @@ navbar:
       
     - text: "Lab Virtual"
       icon: "fas fa-flask"
-      menu:
-        - text: "PICEI/DED/CAPES"
-          href: "picei-ded-capes.html"
-        - text: "Pesquisadores no Exterior"
-          href: "pesquisadores-exterior.html"
+      href: "lab-virtual.html"
       
     # - text: "Sobre nós"  
     #   icon: "fa-solid fa-circle-info"

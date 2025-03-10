@@ -1,0 +1,56 @@
+---
+  title: "O Laboratório Virtual"
+---
+
+\
+
+\
+
+Um lugar para apresentação e discussão de ideias científicas, acadêmicas e profissionais, e de cooperação entre ex-bolsistas, profissionais e pesquisadores brasileiros radicados no Brasil e no exterior.
+
+\
+
+\
+
+### Projetos do PICEI/DED/CAPES/UAB
+
+\
+
+<center>
+
+![](images/lab-virtual-1.png){width=70% style="display: block; margin: 0 auto"}
+[Acesso aos projetos do PICEI/DED/CAPES/UAB](picei-ded-capes.html)
+</center>
+
+\
+
+\
+
+
+### Projetos de Pesquisadores Brasileiros no Exterior
+
+\
+
+
+<center>
+
+![](images/lab-virtual-2.png){width=50% style="display: block; margin: 0 auto"}
+[Acesso ao perfil e projetos de Pesquisadores Brasileiros no Exterior](pesquisadores-exterior.html)
+</center>
+
+\
+
+\
+
+### Projetos do *Science Internship Program*
+
+\
+
+<center>
+
+![](images/sip.png){width=60% style="display: block; margin: 0 auto"}
+
+[Acesso ao portal do Science Internship Program](https://sip.ucsc.edu/applying-to-sip/)
+
+\
+</center>
