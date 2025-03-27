@@ -39,18 +39,3 @@ Um lugar para apresentação e discussão de ideias científicas, acadêmicas e 
 </center>
 
 \
-
-\
-
-### Projetos do *Science Internship Program*
-
-\
-
-<center>
-
-![](images/sip.png){width=60% style="display: block; margin: 0 auto"}
-
-[Acesso ao portal do Science Internship Program](https://sip.ucsc.edu/applying-to-sip/)
-
-\
-</center>

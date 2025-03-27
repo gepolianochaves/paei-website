@@ -12,7 +12,7 @@ navbar:
       icon: "fa-solid fa-people-arrows"
       href: "PmD.html"
       
-    - text: "Lab Virtual"
+    - text: "Lab PmD"
       icon: "fas fa-flask"
       href: "lab-virtual.html"
       
