@@ -39,3 +39,21 @@ Um lugar para apresentação e discussão de ideias científicas, acadêmicas e 
 </center>
 
 \
+
+```{r, echo=FALSE, include=TRUE}
+## This is the original link: https://stackoverflow.com/questions/68936272/generate-a-link-in-r-in-a-sentence
+## This is the command that does what I want, with the documented comment:
+## Otherwise, you can get a clickable link in the RStudio viewer:
+library(htmltools)
+browsable(
+  tags$p(
+    "This is the link: ", 
+    tags$a(
+      href = "pesquisadores-exterior.html",
+      "Projetos de Pesquisadores no Exterior"
+    )
+  )
+)
+```
+
+\

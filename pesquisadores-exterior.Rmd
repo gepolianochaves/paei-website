@@ -1,12 +1,49 @@
+Há dois métodos para apresentar os trabalhos dos pesquisadores, usando a biblioteca htmltools e Faq:
+
+# Biblioteca htmltools e faq
+
+\
+
 ```{r, echo=F, warning=F, message=F}
 
 library(faq)
+
+library(htmltools)
+browsableVariable <- browsable(
+  tags$p(
+    "", 
+    tags$a(
+      href = "https://geraldo-br.netlify.app",
+      "Integração de dados Genômicos ao Sistema de Saúde Público Brasileiro (SUS)"
+    )
+  )
+)
 
 df <- data.frame(
   question = c("Ana Bottura", "Daniel Micha" , "Gepoliano Chaves"),
   
   answer = c("Graduação em Biologia, mestrado em Biologia, doutorado em Biologia",
              "Graduação em Física, mestrado em Física, doutorado em Física",
-             "Integração de dados Genômicos ao Sistema de Saúde Público Brasileiro (SUS)")
+             paste0(browsableVariable,""))
 )
 faq::faq(data = df, elementId = "faq", faqtitle = "Pesquisadores no Exterior")
+
+```
+
+\
+
+# Biblioteca htmltools
+
+```{r, echo=F, warning=F, message=F}
+library(htmltools)
+browsable(
+  tags$p(
+    "Gepoliano Chaves: ", 
+    tags$a(
+      href = "https://geraldo-br.netlify.app",
+      "Integração de dados Genômicos ao Sistema de Saúde Público Brasileiro (SUS)"
+    )
+  )
+)
+```
+
