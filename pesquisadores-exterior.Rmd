@@ -1,5 +1,3 @@
-Há dois métodos para apresentar os trabalhos dos pesquisadores, usando a biblioteca htmltools e Faq:
-
 # Biblioteca htmltools e faq
 
 \
