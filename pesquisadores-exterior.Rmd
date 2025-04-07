@@ -11,7 +11,7 @@ browsableVariable <- browsable(
   tags$p(
     "", 
     tags$a(
-      href = "https://geraldo-br.netlify.app",
+      href = "https://geraldo-br.netlify.app/pmd",
       "Integração de dados Genômicos ao Sistema de Saúde Público Brasileiro (SUS)"
     )
   )
@@ -38,7 +38,7 @@ browsable(
   tags$p(
     "Gepoliano Chaves: ", 
     tags$a(
-      href = "https://geraldo-br.netlify.app",
+      href = "https://geraldo-br.netlify.app/pmd",
       "Integração de dados Genômicos ao Sistema de Saúde Público Brasileiro (SUS)"
     )
   )
