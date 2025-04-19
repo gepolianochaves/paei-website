@@ -5,7 +5,7 @@ https://www.ncbi.nlm.nih.gov/genbank/
 
 https://jhudatascience.org/AnVIL_Phylogenetic-Techniques/downloading-the-sequences-from-genbank.html
 
-```{r}
+```{r, eval=F}
 library(ape)
 mt_brazilian <- read.GenBank(c(
   # "AF243627", # Amerindian/Asian lineage
@@ -41,7 +41,7 @@ mt_brazilian <- read.GenBank(c(
 
 Write to file
 
-```{r}
+```{r, eval=F}
 write.dna(mt_brazilian, 
           file = "./data/mt_brazilian.fasta", 
           format = "fasta")
