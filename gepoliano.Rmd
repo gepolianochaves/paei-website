@@ -4,19 +4,15 @@
 
 \
 
-\
-
-\
-
 Pretende-se que ferramentas úteis ao sistema público de saúde brasileiro sejam desenvolvidas colaborativamente usando o [Lab PmD](lab-virtual.html) e disponibilizadas por meio da [plataforma GERALDA](https://geraldo-br.netlify.app/pmd).
 
 \
 
-\
+#### Desenvolvimento Colaborativo
 
 \
 
-O desenvolvimento colaborativo de *software* é possibilitado por meio de vídeos instrucionais:
+O desenvolvimento de *software* é possibilitado por meio de vídeos instrucionais:
 
 \
 
@@ -28,3 +24,17 @@ O desenvolvimento colaborativo de *software* é possibilitado por meio de vídeo
   
 * Identificação de haplogrupos mitocondriais
   + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.2oztkcfbl659) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
+  
+\
+  
+#### Atividades para estudantes
+
+\
+
+* 16/04/2025: Apresentação de membros do projeto
+
+* 19/04/2025: Pipeline de identificação de haplogrupos mitocondriais
+
+* 21/04/2025: Leitura de artigo e identificação de haplogrupos em outras linhagens celulares cancerígenas
+
+* 23/04/2025: Catalogação de genealogias brasileiras
