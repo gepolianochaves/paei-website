@@ -4,39 +4,27 @@
 
 \
 
-\
-
 Um lugar para apresentação e discussão de ideias científicas, acadêmicas e profissionais, e de cooperação entre ex-bolsistas, profissionais e pesquisadores brasileiros radicados no Brasil e no exterior.
-
-\
-
-\
-
-### Projetos do PICEI/DED/CAPES/UAB
 
 \
 
 <center>
 
 ![](images/lab-virtual-1.png){width=70% style="display: block; margin: 0 auto"}
-[Acesso aos projetos do PICEI/DED/CAPES/UAB](picei-ded-capes.html)
+
 </center>
 
 \
 
+
+[Inscrições em projetos PICEI/UAB/DED/CAPES](picei-ded-capes.html)
+
+
 \
 
 
-### Projetos de Pesquisadores Brasileiros no Exterior
+[Acesso a perfil e projetos de pesquisadores brasileiros no exterior](pesquisadores-exterior.html)
 
-\
-
-
-<center>
-
-![](images/lab-virtual-2.png){width=50% style="display: block; margin: 0 auto"}
-[Acesso ao perfil e projetos de Pesquisadores Brasileiros no Exterior](pesquisadores-exterior.html)
-</center>
 
 \
 
@@ -47,7 +35,7 @@ Um lugar para apresentação e discussão de ideias científicas, acadêmicas e 
 library(htmltools)
 browsable(
   tags$p(
-    "This is the link: ", 
+    "This is a link to test this chunk of R Markdown code: ", 
     tags$a(
       href = "pesquisadores-exterior.html",
       "Projetos de Pesquisadores no Exterior"
@@ -55,5 +43,3 @@ browsable(
   )
 )
 ```
-
-\
