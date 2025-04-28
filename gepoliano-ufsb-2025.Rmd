@@ -8,6 +8,36 @@ Pretende-se que ferramentas úteis ao sistema público de saúde brasileiro seja
 
 \
 
+### Planejamento de atividades pelos instrutores
+
+\
+
+Temas propostos
+
+* Extração de DNA
+
+* Aplicação do DNA recombinante para a obtenção de transgênicos 
+
+* **Banco de dados** 
+
+* **Alinhamento genético**
+
+\
+
+Instrutores responsáveis
+
+* Dr. Gepoliano Chaves
+
+* Dr. Wagner Macena
+
+* Dr. Sebastião Rodrigo
+
+* Dra. Lívia Lemos
+
+
+\
+
+
 #### Desenvolvimento Colaborativo
 
 \
@@ -25,8 +55,29 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
 
 \
 
-* 28/04/2025: Leitura de [Colaboração com UFBS, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing) e identificação de haplogrupos em outras linhagens celulares cancerígenas
+* 28/04/2025: Leitura de [Artigo sobre DNA recombinante, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing)
 
-* 28/04/2025: Leitura de [artigo de Siegismund, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing) e identificação de haplogrupos em outras linhagens celulares cancerígenas
+* 28/04/2025: Leitura de [Como construir atividades colaborativamente mostrando scripts, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing)
 
-* 30/04/2025: Catalogação de genealogias brasileiras
+* 30/04/2025: Catalogação de genealogias brasileiras através da geração de **banco de dados**
+
+* 05/05/25 e 05/08/25: Atividades de **Alinhamento genético** e bioinformática
+
+\
+
+#### Encontros
+
+\
+
+24/04/25 | Quinta  | 14h | Extração de DNA | Slides, Gravações \
+28/04/25 | Segunda | 14h | Aplicação do DNA recombinante para a obtenção de transgênicos | Artigo \
+05/05/25 | Segunda | 14h | **Banco de dados** \
+05/08/25 | Quinta  | 14h | **Alinhamento genético**
+
+
+
+
+
+
+
+
