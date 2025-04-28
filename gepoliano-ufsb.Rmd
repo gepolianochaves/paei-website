@@ -31,12 +31,6 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
 
 \
 
-* 16/04/2025: Apresentação de membros do projeto
-
-* 19/04/2025: Pipeline de identificação de haplogrupos mitocondriais
-
-* 25/04/2025: Solucionando problema: [classificação de haplogrupos sempre retornando haplogrupo H](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.eq1u8ei4dxo)
-
 * 28/04/2025: Leitura de [Colaboração com UFBS, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing) e identificação de haplogrupos em outras linhagens celulares cancerígenas
 
 * 28/04/2025: Leitura de [artigo de Siegismund, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing) e identificação de haplogrupos em outras linhagens celulares cancerígenas

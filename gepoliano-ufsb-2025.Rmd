@@ -18,24 +18,12 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
 
 * Servidor computacional e arquivo fastq 
   + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.sc3873h8qqnu) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1FYhk2wx59oGGtiQwGLOjLbkj48nBlq9v/view?usp=sharing) | [notebook](https://bioinformatics-bridge-course.netlify.app/align-extract-counts#download-fastq-file)
-
-* Alinhamento e extração de variantes
-  + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.sc3873h8qqnu) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1mAWAmrXMg9yy962V8ErsNBo74QBRd2EW/view?usp=sharing) | [notebook](https://bioinformatics-bridge-course.netlify.app/align-extract-counts#alignment-and-variant-call)
-  
-* Identificação de haplogrupos mitocondriais
-  + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.2oztkcfbl659) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
   
 \
   
 #### Atividades para estudantes
 
 \
-
-* 16/04/2025: Apresentação de membros do projeto
-
-* 19/04/2025: Pipeline de identificação de haplogrupos mitocondriais
-
-* 25/04/2025: Solucionando problema: [classificação de haplogrupos sempre retornando haplogrupo H](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.eq1u8ei4dxo)
 
 * 28/04/2025: Leitura de [Colaboração com UFBS, 2016](https://drive.google.com/file/d/1F1fUyGFlYZkSJw10gLZdUVN5DwoLO29s/view?usp=sharing) e identificação de haplogrupos em outras linhagens celulares cancerígenas
 
