@@ -35,10 +35,14 @@ navbar:
           href: "cps.html"
         - text: "UNILAB/UCSC"
           href: "projetos-pesquisa-2024-ucsc.html"
+        - text: "Curso Ponte de Bioinformática"
+          href: "https://bioinformatics-bridge-course.netlify.app"        
         - text: "UFSB"
           href: "gepoliano-ufsb-2025.html"
         - text: "UFV"
           href: "gepoliano.html"
+          
+          
 
           
     - text: "Mentores"
