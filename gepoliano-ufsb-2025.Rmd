@@ -8,7 +8,7 @@ Pretende-se que ferramentas úteis ao sistema público de saúde brasileiro seja
 
 \
 
-### Planejamento de atividades pelos instrutores
+### Atividades Planejadas
 
 \
 
@@ -69,7 +69,9 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
 
 \
 
-24/04/25 | Quinta  | 14h | Extração de DNA | Slides, Gravações \
+
+
+24/04/25 | quinta-feira, 14h - Extração de DNA: [Slides](https://docs.google.com/presentation/d/1CDvot01DESUGmTz_N9yecDO7wTh2dm7u/edit?usp=sharing&ouid=118102085428546980704&rtpof=true&sd=true), [parte 1](https://docs.google.com/presentation/d/1CDvot01DESUGmTz_N9yecDO7wTh2dm7u/edit?usp=sharing&ouid=118102085428546980704&rtpof=true&sd=true), [parte 2](https://docs.google.com/presentation/d/1CDvot01DESUGmTz_N9yecDO7wTh2dm7u/edit?usp=sharing&ouid=118102085428546980704&rtpof=true&sd=true) \
 28/04/25 | Segunda | 14h | Aplicação do DNA recombinante para a obtenção de transgênicos | Artigo \
 05/05/25 | Segunda | 14h | **Banco de dados** \
 05/08/25 | Quinta  | 14h | **Alinhamento genético**
