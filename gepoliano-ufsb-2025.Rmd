@@ -70,7 +70,7 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
 \
 
 24/04/25 | Quinta-feira, 14h - Extração de DNA: [Slides](https://docs.google.com/presentation/d/1CDvot01DESUGmTz_N9yecDO7wTh2dm7u/edit?usp=sharing&ouid=118102085428546980704&rtpof=true&sd=true), [Gravação Parte 1](https://drive.google.com/file/d/1yRgUjFW8coLZmfc8rLnv7_xxY3PTrxvT/view?usp=sharing) e [Gravação Parte 2](https://drive.google.com/file/d/1m0-i0MOAqLjl18Iyx9wQClLGBm9REkLV/view?usp=sharing) \
-28/04/25 | Segunda-feira, 14h - Aplicação do DNA recombinante para a obtenção de transgênicos: [Slides](https://shorturl.at/UMKRs), [Artigo Nature](https://shorturl.at/GUAaN); [Artigo Insulina](https://shorturl.at/8b8zZ) \
+28/04/25 | Segunda-feira, 14h - Aplicação do DNA recombinante para a obtenção de transgênicos: [Slides](https://shorturl.at/UMKRs); [Artigo Nature](https://shorturl.at/GUAaN); [Artigo Insulina](https://shorturl.at/8b8zZ); [Artigo Esposito de Souza](https://shorturl.at/EWO9S) \
 05/05/25 | Segunda-feira às 14h: [**Banco de dados**](https://docs.google.com/presentation/d/1xQn8HpktC6X_vY-EUfFcSA8dia70pMxj/edit?usp=sharing&ouid=103625408686346070691&rtpof=true&sd=true)\
 05/08/25 | Quinta-feira às  14h: [**Alinhamento genético**](https://bioinfo-ufsb-website.netlify.app/alinhamento_analise_sequencias)
 
