@@ -100,12 +100,11 @@ O [BBC](https://bioinformatics-bridge-course.netlify.app) visa ser uma "ponte" p
 
 \
 
-No Brasil esta modalidade de pesquisa foi implementada pela primeira vez pela Diretoria de Educação à Distância (DED) da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)
-https://www.youtube.com/watch?v=5mjVZ_oLczo&t=2s, visando democratizar o acesso à educação, pesquisa e ciência para o interior do país, através de ações da Universidade Aberta do Brasil (UAB).
+Esta modalidade de pesquisa foi implementada pela primeira vez pela [Diretoria de Educação à Distância](https://www.youtube.com/watch?v=5mjVZ_oLczo&t=2s) (DED) da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), visando democratizar o acesso à educação, pesquisa e ciência para o interior do país por meio da Universidade Aberta do Brasil (UAB).
 
-Por meio da participação do Núcleo de Ex-Bolsistas Brasileiros no Exterior no Grupo de Trabalho Interinstitucional (GTI) entre CAPES e CNPq, chegou-se à conclusão de que o Núcleo de Ex-Bolsistas poderia propor ações que agregassem ao trabalho das diretorias da CAPES na formação continuada de professores e alunos da educação básica. 
+A participação do Núcleo de Ex-Bolsistas Brasileiros no Exterior no Grupo de Trabalho Interinstitucional (GTI) entre CAPES e CNPq levou o Núcleo de Ex-Bolsistas a propor ações que agregassem ao trabalho das diretorias da CAPES na formação continuada de professores e alunos da educação básica. 
 
-Assim, chegou-se à proposta de um programa que possibilitasse tal auxílio. Desta proposta, desenvolvemos a [minuta curta do programa](Nova-Minuta-Curta.pdf) . A iniciativa de um programa de PmD em que ex-bolsistas e pesquisadores brasileiros radicados no exterior possam retribuir os investimentos do povo brasileiro em sua formação, contribuem com a expertise do pesquisador no exterior e a internacionalização para a educação brasileira.
+Assim, chegou-se à proposta de um programa que possibilitasse tal auxílio. Neste contexto, desenvolvemos a [minuta curta do programa](Nova-Minuta-Curta.pdf). A iniciativa de um programa de PmD em que ex-bolsistas e pesquisadores brasileiros radicados no exterior possam retribuir os investimentos do povo brasileiro em sua formação, contribuem com a expertise do pesquisador no exterior e a internacionalização da educação brasileira.
 
 \
 
@@ -120,7 +119,7 @@ No PAEI buscamos implementar a PmD em parceria com DED/CAPES e Universidade Aber
 
 Para tanto, pesquisadores mentores, professores e profissioais ou estudantes da educação básica, assim como empreendedores, compartilham e desenvolvem ferramentas, artigos científicos, código-fonte e outros produtos de contribuição para a educação, CT&I brasileiras.
 
-O compartilhamento e versionamento de código-fonte ocorrem usando o GitHub. Instruções para uso do GitHub no versionamento e compartilhamento de código-fonte encontram-se no [OneDrive](https://tinyurl.com/gitCorndel) e no [Google drive ](https://drive.google.com/file/d/1ouj3EQbKzh60pYNbqeOxHkJKJAa4BnwW/view?usp=sharing).
+O compartilhamento e versionamento de código-fonte ocorrem usando o [GitHub](https://tinyurl.com/gitCorndel). O website e desenvolvimento de ferramentas relacionadas ao PAEI são promovidos usando o [GitHub no versionamento e compartilhamento de código-fonte](https://drive.google.com/file/d/1ouj3EQbKzh60pYNbqeOxHkJKJAa4BnwW/view?usp=sharing), assim como o [Lab PmD](lab-virtual.html).
   
 \
 
