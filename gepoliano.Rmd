@@ -4,7 +4,7 @@
 
 \
 
-Pretende-se que ferramentas úteis ao sistema público de saúde brasileiro sejam desenvolvidas colaborativamente usando o [Lab PmD](lab-virtual.html) e disponibilizadas por meio da [plataforma GERALDA](https://geraldo-br.netlify.app/pmd).
+Pretende-se que ferramentas úteis ao sistema público de saúde brasileiro sejam desenvolvidas colaborativamente usando o [Lab PmD](lab-virtual.html) e disponibilizadas por meio da [plataforma GERALDA](https://geraldo-br.netlify.app/pmd). Assim, esta página descreve de forma acessível, os passos necessários para construir conhecimento de forma colaborativa a partir do acesso a notebooks com instruções para o desenvolvimento de software colaborativamente.
 
 \
 
@@ -23,6 +23,9 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
   + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.sc3873h8qqnu) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1mAWAmrXMg9yy962V8ErsNBo74QBRd2EW/view?usp=sharing) | [notebook](https://bioinformatics-bridge-course.netlify.app/align-extract-counts#alignment-and-variant-call)
   
 * Identificação de haplogrupos mitocondriais
+  + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.2oztkcfbl659) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
+  
+* Catalogação de genealogias brasileiras no R
   + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.2oztkcfbl659) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
   
 \
