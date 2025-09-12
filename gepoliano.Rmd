@@ -25,8 +25,8 @@ O desenvolvimento de *software* é possibilitado por meio de vídeos instruciona
 * Identificação de haplogrupos mitocondriais
   + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.2oztkcfbl659) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
   
-* Catalogação de genealogias brasileiras no R
-  + [pseudo-código](https://docs.google.com/document/d/1TBsntWO8cCpHQ9YkvlUwXkXHqAkoKPlVBxtltosAAPs/edit?tab=t.0#heading=h.2oztkcfbl659) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
+* Instruções para catalogação de genealogias brasileiras no R
+  + [pseudo-código](https://docs.google.com/document/d/19vXWJijXb2qhbqO-WZ1V2njiG1CJNs40aNSg5TvBpuo/edit?usp=sharing) | [instruções para gravação de vídeo](https://docs.google.com/document/d/161PbOhDUD06T_ALjTlTGr_N2WFCFryxUf2OS1HtTWro/edit?usp=sharing) | [vídeo genealogias](https://drive.google.com/file/d/1nzm3iBomcvf6kecqIoy7Dd8uTJ9HQl-V/view?usp=sharing)
   
 \
   
