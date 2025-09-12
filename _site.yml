@@ -8,11 +8,11 @@ navbar:
       icon: "fa-home"
       href: index.html
       
-    - text: "PmD"
-      icon: "fa-solid fa-people-arrows"
-      href: "PmD.html"
+    # - text: "PmD"
+    #   icon: "fa-solid fa-people-arrows"
+    #   href: "PmD.html"
       
-    - text: "Lab PmD"
+    - text: "Lab Virtual"
       icon: "fas fa-flask"
       href: "lab-virtual.html"
       
